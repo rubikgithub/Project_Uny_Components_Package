@@ -2,12 +2,10 @@
     "name": "unygc",
     "version": "1.0.0",
     "description": "Distribution files for Uny Components",
-    // "main": "package/index.js",  // Update this to the main entry file if it's different
-
     "main": "package/unygc.umd.js",  
 
     "files": [
-      "*"
+      "package/"
     ],
     "repository": {
       "type": "git",
