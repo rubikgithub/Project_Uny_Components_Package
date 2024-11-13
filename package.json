@@ -5,13 +5,14 @@
     "description": "Distribution files for Uny Components",
     "main": "package/index.umd.js",
     "module": "package/index.es.js",
+    "theme":"default",
     "exports": {
         ".": {
             "import": "./package/index.es.js",
             "require": "./package/index.umd.js"
         }
     },
-   
+    
     "files": [
       "package/",
       "README.md"
