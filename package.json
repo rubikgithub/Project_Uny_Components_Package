@@ -4,10 +4,11 @@
     "version": "0.0.0",
     "type": "module",
     "description": "Distribution files for Uny Components",
-    "main": "package/unygc.umd.js",  
-    "module": "distpack/unygc.es.js",
+    "main": "package/unygc.js",  // Update to the correct entry file path
+    "module": "package/unygc.es.js",
     "files": [
-      "package/"
+      "package/",
+      "README.md"
     ],
     "dependencies": {
         "@ag-grid-community/client-side-row-model": "^31.3.2",
@@ -75,6 +76,10 @@
     "repository": {
       "type": "git",
       "url": "https://github.com/rubikgithub/Project_Uny_Components_Package.git"
+    },
+    "peerDependencies": {
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0"
     },
     "author": "CR GIT",
     "license": "MIT"
