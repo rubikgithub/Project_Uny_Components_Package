@@ -21,6 +21,8 @@
   --block-header-border-bottom-type: solid;
   --block-header-border-bottom-color: #ddd;
   --block-header-border-line-height: 28px;
+  --row-display: flex;
+  --row-flex-wrap: wrap;
   --icon-font-size: 20px;
   --icon-margin-right: 0;
   --icon-line-height: 19px;
@@ -388,8 +390,6 @@
   --input-border-radius: 4px;
   --input-outline: none;
   --input-focus-border-color: #40a9ff;
-  --row-display: flex;
-  --row-flex-wrap: wrap;
   --list-container-border-size: 1px;
   --list-container-border-type: solid;
   --list-container-border-color: #e0e0e0;
