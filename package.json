@@ -6,6 +6,7 @@
     "main": "package/index.umd.js",
     "module": "package/index.es.js",
     "theme":"default",
+    "style": "./style.css",
     "exports": {
         ".": {
             "import": "./package/index.es.js",
