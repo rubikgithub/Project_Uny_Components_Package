@@ -1,0 +1,16 @@
+{
+    "name": "unygc",
+    "version": "1.0.0",
+    "description": "Distribution files for Uny Components",
+    "main": "index.js",  // Update this to the main entry file if it's different
+    "files": [
+      "*"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/rubikgithub/Project_Uny_Components_Package.git"
+    },
+    "author": "CR GIT",
+    "license": "MIT"
+  }
+  
