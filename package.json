@@ -3,14 +3,15 @@
     "version": "0.0.0",
     "type": "module",
     "description": "Distribution files for Uny Components",
-    "main": "package/unygc.js",
-    "module": "package/unygc.es.js",
+    "main": "package/index.umd.js",
+    "module": "package/index.es.js",
     "exports": {
-      ".": {
-        "import": "./package/unygc.es.js",
-        "require": "./package/unygc.js"
-      }
+        ".": {
+            "import": "./package/index.es.js",
+            "require": "./package/index.umd.js"
+        }
     },
+   
     "files": [
       "package/",
       "README.md"
