@@ -18,7 +18,7 @@
   --block-header-border-line-height: 28px;
   --block-header-min-height: 45px;
   --icon-font-size: 20px;
-  --icon-margin-right: 0;
+  --icon-margin-right: 4px;
   --icon-line-height: 19px;
   --icon-font-weight: 400;
   --header-content-display: flex;
@@ -331,12 +331,13 @@
   --group-header-background-color: #f2f7ff;
   --group-header-border-top-left-radius: 4px;
   --group-header-border-top-right-radius: 4px;
+  --group-header-border-radius: 5px;
   --group-header-font-weight: regular;
   --group-header-font-size: 14px;
   --group-header-color: rgba(0, 0, 0, 0.88);
   --group-title-flex-grow: 1;
   --toggle-icon-font-size: 14px;
-  --group-content-padding: 16px;
+  --group-content-padding: 15px 7px;
   --group-content-max-height: 500px;
   --group-content-overflow: hidden;
   --group-content-background-color: #ffffff;
@@ -375,6 +376,7 @@
   --page-header-general-border-top-left-radius: 0px;
   --page-header-general-border-bottom-left-radius: 0px;
   --page-header-general-padding-top: 0px;
+  --page-header-general-padding: 0px 15px;
   --page-header-general-padding-bottom: 0px;
   --page-header-general-margin-top: 0px;
   --page-header-general-margin-right: 0px;
