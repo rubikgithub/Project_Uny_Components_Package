@@ -27,7 +27,7 @@ function applyTheme(selectedTheme) {
 
   // Check if the source theme exists
   if (fs.existsSync(sourceTheme)) {
-    const themeContent = `@import './index.css';\n@import '../Themes/${selectedTheme}';`;
+    const themeContent = `@import '../package/index.css';\n@import './${selectedTheme}';`;
 
     // Write the combined CSS content to theme.css
     fs.writeFileSync(destination, themeContent, "utf8");
