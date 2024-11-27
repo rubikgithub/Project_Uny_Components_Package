@@ -8,7 +8,7 @@ const __dirname = path.dirname(__filename);
 
 // Themes directory within the installed package
 const themesPath = path.resolve(__dirname, "../Themes");
-const themesDestination = path.resolve(__dirname, "../package");
+const themesDestination = path.resolve(__dirname, "../Themes");
 
 // Check if the Themes directory exists
 if (!fs.existsSync(themesPath)) {
@@ -22,7 +22,7 @@ const themes = fs.readdirSync(themesPath).filter(file => file.endsWith(".css"));
 // Function to copy the selected theme
 function applyTheme(selectedTheme) {
   const sourceTheme = path.join(themesPath, selectedTheme);
-  const destination = path.resolve(themesDestination, "theme.css"); // Outputs to the user's current working directory//process.cwd()
+  const destination = path.resolve(themesDestination, "index.css"); // Outputs to the user's current working directory//process.cwd()
 
 
   // Check if the source theme exists
