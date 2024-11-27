@@ -8,6 +8,7 @@ const __dirname = path.dirname(__filename);
 
 // Themes directory within the installed package
 const themesPath = path.resolve(__dirname, "../Themes");
+const themesDestination = path.resolve(__dirname, "../package");
 
 // Check if the Themes directory exists
 if (!fs.existsSync(themesPath)) {
@@ -21,16 +22,33 @@ const themes = fs.readdirSync(themesPath).filter(file => file.endsWith(".css"));
 // Function to copy the selected theme
 function applyTheme(selectedTheme) {
   const sourceTheme = path.join(themesPath, selectedTheme);
-  const destination = path.resolve(process.cwd(), "theme.css"); // Outputs to the user's current working directory
+  const destination = path.resolve(themesDestination, "theme.css"); // Outputs to the user's current working directory//process.cwd()
+
+
+  // Check if the source theme exists
+  if (fs.existsSync(sourceTheme)) {
+    const themeContent = `@import './index.css';\n@import '../Themes/${selectedTheme}';`;
+
+    // Write the combined CSS content to theme.css
+    fs.writeFileSync(destination, themeContent, "utf8");
+    console.log(`Theme "${selectedTheme}" successfully applied at ${destination}`);
+  } else {
+    console.error(`Error: Theme "${selectedTheme}" not found.`);
+    console.log("Available themes:", fs.readdirSync(themesPath).filter(file => file.endsWith(".css")).join(", "));
+    process.exit(1);
+  }
+
+  /*
 
   if (fs.existsSync(sourceTheme)) {
     fs.copyFileSync(sourceTheme, destination);
-    console.log(`Theme "${selectedTheme}" successfully applied.`);
+    console.log(`Theme "${selectedTheme}" successfully applied. at ${destination}`);
   } else {
     console.error(`Error: Theme "${selectedTheme}" not found.`);
     console.log("Available themes:", themes.join(", "));
     process.exit(1);
   }
+  */
 }
 
 // Get the theme name from the command arguments
