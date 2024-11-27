@@ -10,10 +10,13 @@
     "exports": {
         ".": {
             "import": "./package/index.es.js",
-            "require": "./package/index.umd.js"
+            "require": "./package/index.umd.js",
+            "style": "./index.css"
         }
     },
-    
+    "scripts": {
+        "postinstall": "node ./scripts/select-theme.js"
+      },
     "files": [
       "package/",
       "Themes/default.css",
