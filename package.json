@@ -10,7 +10,8 @@
     "exports": {
         ".": {
             "import": "./package/index.es.js",
-            "require": "./package/index.umd.js"
+            "require": "./package/index.umd.js",
+            "style":"./Themes/index.css"
         }
     },
     "bin": {
