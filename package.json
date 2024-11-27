@@ -20,6 +20,7 @@
     "files": [
       "package/",
       "Themes/default.css",
+      "Themes/ns_theme.css",
       "README.md"
     ],
     "dependencies": {
