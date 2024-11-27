@@ -17,7 +17,7 @@
     "files": [
       "package/",
       "Themes/",
-      "Scripts/install-theme.css",
+      "Scripts/install-theme.mjs",
       "README.md"
     ],
     "dependencies": {
