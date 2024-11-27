@@ -15,12 +15,14 @@
         }
     },
     "scripts": {
-        "prepare": "node Scripts/pre-select-theme.mjs"
+        "prepare": "node Scripts/pre-select-theme.mjs",
+        "themelocal":"node Scripts/install-theme.mjs",
+        "theme":"node node_modules/unygc/Scripts/install-theme.mjs"
     },
     "files": [
         "package/",
-        "Themes/default.css",
-        "Themes/ns_theme.css",
+        "Scripts/install-theme.mjs",
+        "Themes/",
         "README.md"
     ],
     "dependencies": {
