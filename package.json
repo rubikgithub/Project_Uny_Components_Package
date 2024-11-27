@@ -15,7 +15,7 @@
         }
     },
     "scripts": {
-        "preinstall": "node Scripts/pre-select-theme.mjs"
+        "prepare": "node Scripts/pre-select-theme.mjs"
     },
     "files": [
         "package/",
