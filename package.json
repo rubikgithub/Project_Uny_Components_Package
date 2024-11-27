@@ -13,9 +13,13 @@
             "require": "./package/index.umd.js"
         }
     },
+    "bin": {
+      "unygc": "./Scripts/install-theme.mjs"
+    },
     "script":{
-      "theme":"./Scripts/install-theme.mjs"
-    }, 
+      "themel":"./Scripts/install-theme.mjs",
+      "theme":"node node_modules/unygc/Scripts/install-theme.mjs --"
+    },  
     
     "files": [
       "package/",
