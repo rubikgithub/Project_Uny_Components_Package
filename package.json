@@ -13,6 +13,9 @@
             "require": "./package/index.umd.js"
         }
     },
+    "script":{
+      "theme":"./Scripts/install-theme.mjs"
+    }, 
     
     "files": [
       "package/",
