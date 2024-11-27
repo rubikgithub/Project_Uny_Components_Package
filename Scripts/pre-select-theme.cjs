@@ -28,8 +28,8 @@ function applyTheme(selectedTheme) {
   }
 }
 
-// Ask the user to select a theme
-console.log("Before proceeding with installation, please select a theme:");
+// Prompt user for theme selection
+console.log("Please select a theme from the options below:");
 themes.forEach((theme, index) => console.log(`${index + 1}. ${theme}`));
 
 rl.question("Enter the number corresponding to your theme: ", (answer) => {
