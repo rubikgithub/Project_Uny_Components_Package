@@ -40,7 +40,7 @@
   --block-content-collapsed-opacity: 0;
   --block-content-collapsed-padding-top-bottom: 0;
   --block-content-collapsed-padding-left-right: 10px;
-  --page-background-color: #c40000;
+  --page-background-color: #ffffff;
   --uny-btn-display: inline-flex;
   --uny-btn-align-items: center;
   --uny-btn-justify-content: center;
@@ -361,7 +361,7 @@
   --info-item-value-border-radius: 4px;
   --info-item-value-font-size: 14px;
   --info-item-value-color: #333;
-  --page-header-general-background-color: #000000;
+  --page-header-general-background-color: #ffffff;
   --page-header-general-min-width: 100%;
   --page-header-general-min-height: 52px;
   --page-header-general-width: 100%;
@@ -390,7 +390,7 @@
   --page-header-left: 0;
   --page-header-z-index: 100;
   --page-header-strip-title-padding-left: 7px;
-  --page-header-strip-title-color: #ffffff;
+  --page-header-strip-title-color: #000000;
   --page-header-strip-title-font-weight: 500;
   --page-header-strip-title-letter-spacing: 0.5px;
   --page-header-strip-title-text-align: center;
