@@ -11,7 +11,8 @@
         ".": {
             "import": "./package/index.es.js",
             "require": "./package/index.umd.js",
-            "style":"./Themes/index.css"
+            "style":"./Themes/index.css",
+            "themes-css": "./Themes/index.css"
         }
     },
     "bin": {
