@@ -13,4 +13,3 @@ if (fs.existsSync(targetTheme)) {
   console.error(`Theme ${theme}.css not found!`);
   process.exit(1);
 }
- 
