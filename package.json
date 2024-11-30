@@ -10,11 +10,10 @@
     "exports": {
         ".": {
             "import": "./package/index.es.js",
-            "require": "./package/index.umd.js"
-        },
-        "./themes-css": "./Themes/index.css"
+            "require": "./package/index.umd.js",
+            "style":"./Themes/index.css"
+        }
     },
-
     "bin": {
       "unygc": "./Scripts/install-theme.mjs"
     },
