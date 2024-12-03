@@ -474,8 +474,9 @@
   --list-item-background-color: #f9f9f9;
   --list-item-cursor: pointer;
   --list-item-last-child-margin-bottom: 0;
-  --background-color-1: red;
-  --background-color-2: red;
+  --background-color: red;
+  --background-color-left: red;
+  --background-color-right: red;
   --login-align: left;
   --login-field-align: top;
   --login-bg-image-1: url...;
