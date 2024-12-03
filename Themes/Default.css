@@ -476,9 +476,9 @@
   --list-item-last-child-margin-bottom: 0;
   --background-color-center: #fff;
   --background-color-form: #fff;
-  --background-color-bg: #fff;
+  --background-color-bg: #000;
   --login-align: left;
-  --login-field-align: top;
+  --login-field-align: center;
   --login-bg-image-1: url...;
   --login-bg-image-2: url...;
   --login-bg-image-3: url...;
