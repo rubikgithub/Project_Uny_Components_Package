@@ -474,6 +474,16 @@
   --list-item-background-color: #f9f9f9;
   --list-item-cursor: pointer;
   --list-item-last-child-margin-bottom: 0;
+  --background-color-center: #fff;
+  --background-color-form: #fff;
+  --background-color-bg: #000;
+  --login-align: left;
+  --login-field-align: center;
+  --login-bg-image-1: /images/default/1733306733619-pexels-shyam-mishra-203327-16100353.jpg;
+  --login-bg-image-2: url...;
+  --login-bg-image-3: url...;
+  --login-bg-image-4: url...;
+  --login-bg-image-5: url...;
   --row-display: flex;
   --row-flex-wrap: wrap;
   --switch-container-display: inline-block;
