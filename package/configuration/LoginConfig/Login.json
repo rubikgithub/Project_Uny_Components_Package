@@ -1,10 +1,6 @@
 {
-  "backgroundColor": "#b11d1d",
-  "formBackgroundColor": "#b81c1c",
-  "loginBoxAlignment": "right",
-  "loginFieldsAlignment": "center",
-  "images": [
-    "/images/default/1733323121506-pexels-shyam-mishra-203327-16100353.jpg",
-    "/Public/images/default/1733323386131-deepak-vishwakarma-lRn-xT7SHOA-unsplash.jpg"
-  ]
+  "backgroundColor": "#ffe1e1",
+  "formBackgroundColor": "#fff",
+  "loginBoxAlignment": "left",
+  "loginFieldsAlignment": "top"
 }
