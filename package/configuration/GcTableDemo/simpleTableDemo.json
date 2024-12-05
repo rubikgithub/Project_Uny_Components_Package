@@ -1,0 +1,35 @@
+{
+  "finalCols": [
+    {
+      "field": "taskName",
+      "headerName": "Task Name",
+      "width": 200,
+      "type": 1
+    },
+    {
+      "field": "dueDate",
+      "headerName": "Due Date",
+      "type": 1
+    },
+    {
+      "field": "priority",
+      "headerName": "Priority",
+      "colorScheme": {
+        "high": "red",
+        "medium": "goldenrod",
+        "low": "dodgerblue"
+      },
+      "type": 1
+    },
+    {
+      "field": "status",
+      "headerName": "Status",
+      "type": 1
+    }
+  ],
+  "quickFilterText": "",
+  "pinnedColumnsRight": [],
+  "pinnedColumnsLeft": [],
+  "groupByColumns": [],
+  "appliedFilters": []
+}
