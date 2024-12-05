@@ -1,6 +1,11 @@
 {
-  "backgroundColor": "#ffe1e1",
-  "formBackgroundColor": "#fff",
+  "fontColor": "#fff",
+  "loginBoxBackgroundColor": "#fff",
   "loginBoxAlignment": "left",
-  "loginFieldsAlignment": "top"
+  "backgroundImage": "/images/default/1733404708874-pexels-sanket-barik-2808574-7846475.jpg",
+  "formBackgroundImage": "/images/default/1733404643085-pexels-sanket-barik-2808574-7846475.jpg",
+  "loginBoxBackgroundImage": "/images/default/1733404622667-pexels-pixabay-33045.jpg",
+  "formBackgroundColor": "#ec1d1d",
+  "loginText": "Unykloud",
+  "loginFieldsAlignment": "center"
 }
