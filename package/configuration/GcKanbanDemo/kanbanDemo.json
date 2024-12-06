@@ -1,0 +1,140 @@
+{
+  "json": {
+    "cardSettings": {
+      "valueFontSize": 12,
+      "cardBorderColor": "",
+      "cardBackgroundColor": "#fff",
+      "selectedCardColor": "",
+      "valueFontColor": "",
+      "labelFontSize": 12,
+      "labelFontColor": "",
+      "showLabels": true
+    },
+    "cardFields": [
+      {
+        "id": "title",
+        "nameText": "Title",
+        "type": "text",
+        "hidden": false
+      },
+      {
+        "id": "status",
+        "nameText": "Status",
+        "type": "select",
+        "hidden": false,
+        "fieldStyle": {
+          "1": {
+            "background": "dodgerblue",
+            "color": "#fff"
+          },
+          "2": {
+            "background": "goldenrod",
+            "color": "#fff"
+          },
+          "3": {
+            "background": "crimson",
+            "color": "#fff"
+          }
+        },
+        "options": [
+          {
+            "id": 1,
+            "name": "To Do"
+          },
+          {
+            "id": 2,
+            "name": "In Progress"
+          },
+          {
+            "id": 3,
+            "name": "Done"
+          }
+        ]
+      },
+      {
+        "id": "statusText",
+        "nameText": "Status Text",
+        "type": "text",
+        "hidden": true
+      },
+      {
+        "id": "id",
+        "nameText": "Id",
+        "type": "text",
+        "hidden": false
+      },
+      {
+        "id": "priority",
+        "nameText": "Priority",
+        "type": "select",
+        "hidden": false,
+        "fieldStyle": {
+          "1": {
+            "background": "dodgerblue",
+            "color": "#fff"
+          },
+          "2": {
+            "background": "goldenrod",
+            "color": "#fff"
+          },
+          "3": {
+            "background": "crimson",
+            "color": "#fff"
+          }
+        },
+        "options": [
+          {
+            "id": 1,
+            "name": "High"
+          },
+          {
+            "id": 2,
+            "name": "Medium"
+          },
+          {
+            "id": 3,
+            "name": "Low"
+          }
+        ]
+      },
+      {
+        "id": "startedAssignees",
+        "nameText": "Started Assignees",
+        "type": "avtar",
+        "hidden": false
+      },
+      {
+        "id": "totalHours",
+        "nameText": "Total Hours",
+        "type": "flag",
+        "hidden": false
+      },
+      {
+        "id": "assignees",
+        "nameText": "Assignees",
+        "type": "multiselect",
+        "hidden": false,
+        "options": [
+          {
+            "id": 1,
+            "name": "John"
+          },
+          {
+            "id": 2,
+            "name": "Jane"
+          },
+          {
+            "id": 3,
+            "name": "Joe"
+          }
+        ]
+      }
+    ],
+    "groupSettings": {
+      "allowDragAndDrop": true,
+      "headerTextColor": "black",
+      "headerCountColor": "black",
+      "headerColor": "#e9e7e7"
+    }
+  }
+}
