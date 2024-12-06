@@ -2,12 +2,5 @@
   "displayTable": {
     "name": true,
     "custrecord_knz_kmcf_auto_id": true
-  },
-  "matrixSettings": {
-    "X": {
-      "headerBackgroundX": "#fff",
-      "fontColor": "#000",
-      "countColorX": "#772424"
-    }
   }
 }
