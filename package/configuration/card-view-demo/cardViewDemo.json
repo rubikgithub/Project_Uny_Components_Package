@@ -1,0 +1,11 @@
+{
+  "json": {
+    "TargetSettings": {
+      "displayLables": {
+        "name": true,
+        "secret_key": true,
+        "purpose": true
+      }
+    }
+  }
+}
