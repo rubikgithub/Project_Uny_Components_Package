@@ -497,6 +497,9 @@
   --pheader-icon-color: #4e4e4e;
   --pheader-icon-font: 55px;
   --pheader-icon-cursor: 10px;
+  --pheader-search-bar-align: #4e4e4e;
+  --pheader-search-bar-color: #f8f9fa;
+  --pheader-search-bar-font: 55px;
   --pmenu-background-color: #d9d9d9;
   --pmenu-font-color: #24223e;
   --pmenu-height: 400px;
