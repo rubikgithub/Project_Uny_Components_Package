@@ -515,11 +515,13 @@
   --navbar-item-height: 5px;
   --navbar-item-padding: 0px 10px;
   --navbar-item-margin: 5px;
+  --navbar-item-fontWeight: 5px;
   --navbar-hover-background-color: #3c3c3c;
   --navbar-hover-font-color: #eaeaea;
   --navbar-hover-height: 5px;
   --navbar-hover-padding: 0px 10px;
   --navbar-hover-margin: 5px;
+  --navbar-item-fontWeight: 5px;
   --navbar-active-background-color: #3c3c3c;
   --navbar-active-font-color: #eaeaea;
   --navbar-active-height: 5px;
