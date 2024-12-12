@@ -12,6 +12,9 @@
             "import": "./package/index.es.js",
             "require": "./package/index.umd.js",
             "style":"./Themes/index.css"
+        },
+        "./style": {
+            "default": "./Themes/index.css"
         }
     },
     "bin": {
