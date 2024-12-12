@@ -5,7 +5,7 @@
   --block-container-border-color: #ddd;
   --block-container-border-radius: 8px;
   --block-container-overflow: hidden;
-  --block-container-background-color: #fff;
+  --block-container-background-color: #efefef;
   --block-container-margin-bottom: 20px;
   --block-header-display: flex;
   --block-header-padding: 5px 10px;
@@ -40,7 +40,7 @@
   --block-content-collapsed-opacity: 0;
   --block-content-collapsed-padding-top-bottom: 0;
   --block-content-collapsed-padding-left-right: 10px;
-  --page-background-color: #fffff;
+  --page-background-color: #f1f1f1;
   --uny-btn-display: inline-flex;
   --uny-btn-align-items: center;
   --uny-btn-justify-content: center;
