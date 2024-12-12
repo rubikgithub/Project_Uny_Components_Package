@@ -499,10 +499,10 @@
   --pmenu-height: 400px;
   --pmenu-padding: 10px;
   --pmenu-margin: 5px;
-  --navbar-background-color: #cbdbd3;
-  --navbar-font-color: #caafaf;
+  --navbar-background-color: #3c3c3c;
+  --navbar-font-color: #eaeaea;
   --navbar-height: 5px;
-  --navbar-padding: 5px 10px;
+  --navbar-padding: 0px 10px;
   --navbar-margin: 5px;
   --pprofile-background-color: #f0f0f0;
   --pprofile-font-color: #24223e;
