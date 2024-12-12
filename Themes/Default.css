@@ -512,13 +512,13 @@
   --navbar-margin: 5px;
   --navbar-header-background-color: #3c3c3c;
   --navbar-item-background-color: transparent;
-  --navbar-item-font-color: #eaeaea;
+  --navbar-item-font-color: #212325;
   --navbar-item-height: 30px;
   --navbar-item-padding: 0px 10px;
   --navbar-item-margin: 30px;
   --navbar-item-fontWeight: 5px;
   --navbar-hover-background-color: #D8D9D9;
-  --navbar-hover-font-color: #eaeaea;
+  --navbar-hover-font-color: #212325;
   --navbar-hover-height: 5px;
   --navbar-hover-padding: 0px 10px;
   --navbar-hover-margin: 5px;
