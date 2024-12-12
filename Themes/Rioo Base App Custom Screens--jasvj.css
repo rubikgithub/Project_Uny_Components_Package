@@ -40,7 +40,7 @@
   --block-content-collapsed-opacity: 0;
   --block-content-collapsed-padding-top-bottom: 0;
   --block-content-collapsed-padding-left-right: 10px;
-  --page-background-color: #f1f1f1;
+  --page-background-color: #fdfafa;
   --uny-btn-display: inline-flex;
   --uny-btn-align-items: center;
   --uny-btn-justify-content: center;
@@ -548,7 +548,7 @@
   --tabs-header-font-weight: normal;
   --tabs-header-line-height: 1.5;
   --tabs-header-letter-spacing: normal;
-  --tabs-header-background-color: #ffffff;
+  --tabs-header-background-color: #f3f3f3;
   --tabs-hover-color: #1890ff;
   --tabs-hover-border-color: transparent;
   --tabs-active-color: #1890ff;
