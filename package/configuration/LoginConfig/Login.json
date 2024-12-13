@@ -1,0 +1,26 @@
+{
+    "loginbox": {
+        "borderColor": "#800000",
+        "position": "center",
+        "labelFontWeight": "600",
+        "style": "tb",
+        "labelColor": "#1f1c1c",
+        "loginBoxShadow": "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px",
+        "labelFontSize": "24px",
+        "buttonPosition": "center",
+        "backgroundType": "color",
+        "backgroundValue": "#cfe7e1"
+    },
+    "main": {
+        "split": "false"
+    },
+    "full": {
+        "backgroundType": "color",
+        "backgroundValue": "#fcf9f9"
+    },
+    "logo": {
+        "position": "left",
+        "style": "text",
+        "value": "Testing"
+    }
+}
