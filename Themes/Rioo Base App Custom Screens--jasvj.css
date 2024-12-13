@@ -365,7 +365,7 @@
   --info-item-value-border-radius: 4px;
   --info-item-value-font-size: 14px;
   --info-item-value-color: #333;
-  --page-header-general-background-color: #dcdada;
+  --page-header-general-background-color: #f1f1f1;
   --page-header-general-min-width: 100%;
   --page-header-general-min-height: 52px;
   --page-header-general-width: 100%;
@@ -493,7 +493,7 @@
   --pbreadcrumb-height: 1px;
   --pbreadcrumb-padding: 5px;
   --pbreadcrumb-margin: 5px;
-  --pheader-background-color: #f3f3f3;
+  --pheader-background-color: #f1f1f1;
   --pheader-font-color: #4e4e4e;
   --pheader-height: 55px;
   --pheader-padding: 8px 14px;
