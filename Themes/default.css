@@ -41,6 +41,10 @@
   --block-content-collapsed-padding-top-bottom: 0;
   --block-content-collapsed-padding-left-right: 10px;
   --page-background-color: #f1f1f1;
+  --page-font-family: Lexend Deca, sans-serif;
+  --page-font-size: 13px;
+  --page-font-color: #212325;
+  --page-font-weight: 400;
   --uny-btn-display: inline-flex;
   --uny-btn-align-items: center;
   --uny-btn-justify-content: center;
@@ -492,7 +496,7 @@
   --pheader-background-color: #f8f9fa;
   --pheader-font-color: #4e4e4e;
   --pheader-height: 55px;
-  --pheader-padding: 10px;
+  --pheader-padding: 8px 14px;
   --pheader-margin: 5px;
   --pheader-icon-color: #4e4e4e;
   --pheader-icon-font: 55px;
