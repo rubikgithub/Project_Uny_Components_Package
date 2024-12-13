@@ -1,0 +1,14 @@
+{
+  "json": {
+    "cardSettings": {
+      "ntTextColor": "#fce7e7",
+      "ntBackgroundColor": "#e91111"
+    },
+    "tableDisplay": {
+      "assignedBy": true,
+      "createdDate": true,
+      "description": true,
+      "dueDate": true
+    }
+  }
+}
