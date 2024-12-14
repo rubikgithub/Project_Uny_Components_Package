@@ -468,12 +468,10 @@
   --navbar-header-font-color: #eaeaea;
   --navbar-footer-background-color: #eaeaea;
   --navbar-footer-font-color: #eaeaea;
-  --navbar-settings-background-color: transparent;
   --navbar-settings-font-color: #212325;
+  --navbar-settings-font-weight: 400;
   --navbar-settings-height: 30px;
-  --navbar-settings-padding: 0px 10px;
   --navbar-settings-margin: 5px;
-  --navbar-settings-font-weight: 5px;
   --navbar-settings-hover-style: 5px;
   --navbar-settings-hover-style-color: 5px;
   --navbar-item-font-weight: 5px;
