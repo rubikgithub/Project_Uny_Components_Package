@@ -462,12 +462,12 @@
   --pmenu-height: 400px;
   --pmenu-padding: 10px;
   --pmenu-margin: 5px;
-  --navbar-background-color: #EAEAEA;
-  --navbar-width: 5px;
-  --navbar-header-background-color: #EAEAEA;
-  --navbar-header-font-color: #EAEAEA;
-  --navbar-footer-background-color: #EAEAEA;
-  --navbar-footer-font-color: #EAEAEA;
+  --navbar-background-color: #eaeaea;
+  --navbar-width: 250px;
+  --navbar-header-background-color: #eaeaea;
+  --navbar-header-font-color: #eaeaea;
+  --navbar-footer-background-color: #eaeaea;
+  --navbar-footer-font-color: #eaeaea;
   --navbar-settings-background-color: transparent;
   --navbar-settings-font-color: #212325;
   --navbar-settings-height: 30px;
