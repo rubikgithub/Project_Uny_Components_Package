@@ -491,11 +491,9 @@
   --navbar-sub-settings-active-style-color: #eaeaea;
   --navbar-sub-active-font-weight: #212325;
   --navbar-sub-active-font-color: #212325;
-  --pprofile-background-color: #f0f0f0;
   --pprofile-font-color: #24223e;
-  --pprofile-height: 1px;
-  --pprofile-padding: 5px;
-  --pprofile-margin: 5px;
+  --pprofile-font-size: 14px;
+  --pprofile-font-weight: 400;
   --row-display: flex;
   --row-flex-wrap: wrap;
   --switch-container-display: inline-block;
