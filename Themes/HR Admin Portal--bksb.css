@@ -40,7 +40,7 @@
   --block-content-collapsed-opacity: 0;
   --block-content-collapsed-padding-top-bottom: 0;
   --block-content-collapsed-padding-left-right: 10px;
-  --page-background-color: #dadada;
+  --page-background-color: #fefefe;
   --page-font-family: Lexend Deca, sans-serif;
   --page-font-size: 13px;
   --page-font-color: #212325;
@@ -446,7 +446,7 @@
   --pbreadcrumb-active-font-color: #000;
   --pbreadcrumb-hover-font-color: #000;
   --pbreadcrumb-separator-color: #555;
-  --pheader-background-color: #76bcbc;
+  --pheader-background-color: #eff1f1;
   --pheader-font-color: #f4cbcb;
   --pheader-height: 55px;
   --pheader-padding: 10px;
@@ -459,7 +459,7 @@
   --pmenu-height: 400px;
   --pmenu-padding: 10px;
   --pmenu-margin: 5px;
-  --navbar-background-color: #e5b7b7;
+  --navbar-background-color: #f6f3f3;
   --navbar-width: 250px;
   --navbar-header-background-color: #eaeaea;
   --navbar-header-font-color: #eaeaea;
@@ -467,8 +467,8 @@
   --navbar-footer-font-color: #eaeaea;
   --navbar-settings-font-color: #212325;
   --navbar-settings-font-weight: 400;
-  --navbar-settings-height: 40px;
-  --navbar-settings-margin: 15px;
+  --navbar-settings-height: 30px;
+  --navbar-settings-margin: 5px;
   --navbar-settings-hover-style: background;
   --navbar-settings-hover-style-color: #efa2a2;
   --navbar-item-font-weight: 5px;
