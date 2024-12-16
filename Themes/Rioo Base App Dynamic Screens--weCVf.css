@@ -5,7 +5,7 @@
   --block-container-border-color: #ddd;
   --block-container-border-radius: 8px;
   --block-container-overflow: hidden;
-  --block-container-background-color: #f3f3f3;
+  --block-container-background-color: #fff;
   --block-container-margin-bottom: 20px;
   --block-header-display: flex;
   --block-header-padding: 5px 10px;
@@ -40,10 +40,10 @@
   --block-content-collapsed-opacity: 0;
   --block-content-collapsed-padding-top-bottom: 0;
   --block-content-collapsed-padding-left-right: 10px;
-  --page-background-color: #ffffff;
+  --page-background-color: #f1f1f1;
   --page-font-family: Lexend Deca, sans-serif;
   --page-font-size: 13px;
-  --page-font-color: #34383b;
+  --page-font-color: #212325;
   --page-font-weight: 400;
   --page-padding: 15px;
   --page-hover-button-bg: #f1f1f1;
@@ -377,14 +377,14 @@
   --info-item-value-border-radius: 4px;
   --info-item-value-font-size: 14px;
   --info-item-value-color: #333;
-  --page-header-general-background-color: #ffffff;
+  --page-header-general-background-color: #fff;
   --page-header-general-color: #4e4e4e;
   --page-header-general-font-size: 17px;
   --page-header-general-font-weight: 400;
   --page-header-general-height: 52px;
   --page-header-general-padding: 0px 15px;
   --page-header-general-box-shadow: 2px 2px 2px 2px rgb(237, 237, 237);
-  --page-header-general-border-color: #ffffff;
+  --page-header-general-border-color: #000;
   --input-width: 100%;
   --input-padding: 8px;
   --input-font-size: 14px;
@@ -446,7 +446,7 @@
   --pbreadcrumb-active-font-color: #000;
   --pbreadcrumb-hover-font-color: #000;
   --pbreadcrumb-separator-color: #555;
-  --pheader-background-color: #f1f1f1;
+  --pheader-background-color: #f8f9fa;
   --pheader-font-color: #4e4e4e;
   --pheader-height: 55px;
   --pheader-padding: 8px 14px;
@@ -459,7 +459,7 @@
   --pmenu-height: 400px;
   --pmenu-padding: 10px;
   --pmenu-margin: 5px;
-  --navbar-background-color: #EAEAEA;
+  --navbar-background-color: #eaeaea;
   --navbar-width: 250px;
   --navbar-header-background-color: #eaeaea;
   --navbar-header-font-color: #eaeaea;
