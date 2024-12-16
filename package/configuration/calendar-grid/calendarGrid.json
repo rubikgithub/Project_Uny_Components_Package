@@ -1,14 +1,56 @@
 {
   "json": {
     "cardSettings": {
-      "ntTextColor": "#fce7e7",
-      "ntBackgroundColor": "#e91111"
+      "ntTextColor": "#e6dede",
+      "ntBackgroundColor": "#f81a1a",
+      "selectViews": "dates",
+      "sortByView": "planFrom-planTo",
+      "headerHeight": "60",
+      "width": "350",
+      "ntFontSize": "9",
+      "headerColor": "#eb5353",
+      "countColor": "#200303",
+      "weekendColor": "#b3f5f4",
+      "todaysColor": "#d2d81f",
+      "backgroundColor": "#f8dfdf",
+      "employeeFontColor": "#eb0f0f",
+      "designationColor": "#f51313",
+      "yCountColor": "#db2a2a",
+      "by_value": "assignTo",
+      "employeeFontSize": "15",
+      "designationFontSize": "14",
+      "Row1fontColor": "#dd0d0d",
+      "Row2fontColor": "#bd2020",
+      "countBackgroundColor": "#ee4e99",
+      "countFontColor": "#f8f4f4",
+      "countFontSize": "9",
+      "cardsNumber": "",
+      "groupValue": [
+        "1138",
+        "1127",
+        "1118",
+        "8",
+        "7",
+        "6"
+      ]
     },
     "tableDisplay": {
       "assignedBy": true,
       "createdDate": true,
       "description": true,
-      "dueDate": true
+      "dueDate": true,
+      "planFrom": false,
+      "name": true
+    },
+    "display": {
+      "planTo": false,
+      "planFrom": true,
+      "name": false,
+      "dueDate": true,
+      "description": true,
+      "createdDate": true,
+      "priority": false,
+      "assignedBy": true
     }
   }
 }
