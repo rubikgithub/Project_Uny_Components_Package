@@ -1,0 +1,14 @@
+{
+  "json": {
+    "TargetSettings": {
+      "cardBackgroundColor": "#fff",
+      "cardBorderColor": "#000",
+      "selectedCardColor": "#fff",
+      "selectedCardBorderColor": "#000",
+      "valueColor": "#000",
+      "alignment": {
+        "priority": "end"
+      }
+    }
+  }
+}
