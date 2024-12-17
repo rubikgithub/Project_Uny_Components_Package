@@ -8,7 +8,7 @@
   --block-container-background-color: #fff;
   --block-container-margin-bottom: 20px;
   --block-header-display: flex;
-  --block-header-padding: 5px 10px;
+  --block-header-padding: 5px 0px;
   --block-header-align-items: center;
   --block-header-background-color: #fff;
   --block-header-cursor: pointer;
@@ -485,8 +485,8 @@
   --navbar-sub-hover-font-color: #212325;
   --navbar-sub-settings-active-style: background;
   --navbar-sub-settings-active-style-color: #eaeaea;
-  --navbar-sub-active-font-weight: #212325;
   --navbar-sub-active-font-color: #212325;
+  --navbar-sub-active-font-weight: #212325;
   --pprofile-font-color: #24223e;
   --pprofile-font-size: 14px;
   --pprofile-font-weight: 400;
