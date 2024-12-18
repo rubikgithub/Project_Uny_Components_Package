@@ -491,6 +491,16 @@
   --pprofile-font-color: #24223e;
   --pprofile-font-size: 14px;
   --pprofile-font-weight: 400;
+  --pprofile-sub-font-color: #24223e;
+  --pprofile-sub-font-size: 14px;
+  --pprofile-sub-font-weight: 400;
+  --pprofile-thumbnail-bg-color: #ffffff;
+  --pprofile-thumbnail-height: 20px;
+  --pprofile-thumbnail-weight: 20px;
+  --pprofile-thumbnail-font-size: 14px;
+  --pprofile-thumbnail-font-color: #fff;
+  --pprofile-thumbnail-font-weight: 500;
+  --pprofile-thumbnail-border-radius: 50%;
   --row-display: flex;
   --row-flex-wrap: wrap;
   --switch-container-display: inline-block;
