@@ -1,0 +1,29 @@
+{
+  "json": {
+    "TargetSettings": {
+      "cardBackgroundColor": "#fff",
+      "cardBorderColor": "#000",
+      "selectedCardColor": "#fff",
+      "selectedCardBorderColor": "#000",
+      "valueColor": "#000",
+      "display": {
+        "name": true,
+        "secret_key": true,
+        "publish_key": true,
+        "purpose": true,
+        "clerk_application": true,
+        "status": true,
+        "priority": true,
+        "createdDate": true
+      },
+      "displayLables": {
+        "name": true,
+        "secret_key": true,
+        "publish_key": true,
+        "purpose": true,
+        "clerk_application": true,
+        "status": false
+      }
+    }
+  }
+}
