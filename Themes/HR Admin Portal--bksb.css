@@ -463,7 +463,8 @@
   --navbar-background-color: #2e3e50;
   --navbar-width: 260px;
   --navbar-header-background-color: #2e3e50;
-  --navbar-footer-background-color: #2e3e50;
+  --navbar-devider-color: #eeeeee42;
+  --navbar-footer-background-color: #eaeaea;
   --navbar-settings-font-color: #ffffff;
   --navbar-settings-font-weight: 400;
   --navbar-settings-height: 35px;
