@@ -1,0 +1,465 @@
+{
+  "json": {
+    "displayTable": {
+      "name": true,
+      "custrecord_knz_kmcf_auto_id": true
+    },
+    "tableDisplay": {
+      "custrecord_knz_kmcf_fun_responsibility": true,
+      "custrecord_knz_kmcf_ba_responsibility": true,
+      "lastmodified": true,
+      "created": true,
+      "name": true,
+      "custrecord_knz_kmcf_task_status": true
+    },
+    "matrixSettings": {
+      "X": {
+        "headerBackgroundX": "#f5b0b0",
+        "fontColor": "#f50404",
+        "countColorX": "#f81313",
+        "groupBy": "custrecord_knz_kmcf_assigned_to",
+        "hideHeaderX": {},
+        "xcolumnsColor": "#f7f3f3",
+        "X_header_sequence": "desc",
+        "sequencex": [],
+        "order": [
+          {
+            "id": "1133",
+            "title": "Deepesh",
+            "str": "Deepesh",
+            "nbr": null,
+            "designation": 2,
+            "designationText": "Dev Team"
+          },
+          {
+            "id": "7",
+            "title": "Narayana",
+            "str": "Narayana",
+            "nbr": null,
+            "designation": 2,
+            "designationText": "Dev Team"
+          },
+          {
+            "id": "34",
+            "title": "Santhosh",
+            "str": "Santhosh",
+            "nbr": null,
+            "designation": 2,
+            "designationText": "Dev Team"
+          },
+          {
+            "id": "-5",
+            "title": "Reddy Pol",
+            "str": "ReddyPol",
+            "nbr": null,
+            "designation": 5
+          },
+          {
+            "id": "1157",
+            "title": "Vinod Kumar",
+            "str": "VinodKumar",
+            "nbr": null,
+            "designation": 2,
+            "designationText": "Dev Team"
+          },
+          {
+            "id": "8",
+            "title": "Suryakala",
+            "str": "Suryakala",
+            "nbr": null,
+            "designation": 2,
+            "designationText": "Dev Team"
+          },
+          {
+            "id": "1155",
+            "title": "Mohit",
+            "str": "Mohit",
+            "nbr": null,
+            "designation": 2,
+            "designationText": "Dev Team"
+          },
+          {
+            "id": "1153",
+            "title": "Govind",
+            "str": "Govind",
+            "nbr": null,
+            "designation": 2,
+            "designationText": "Dev Team"
+          },
+          {
+            "id": "1152",
+            "title": "Anand",
+            "str": "Anand",
+            "nbr": null,
+            "designation": 2,
+            "designationText": "Dev Team"
+          },
+          {
+            "id": "1149",
+            "title": "Tekeshwar",
+            "str": "Tekeshwar",
+            "nbr": null,
+            "designation": 2,
+            "designationText": "Dev Team"
+          },
+          {
+            "id": "1146",
+            "title": "Ajay Mali",
+            "str": "AjayMali",
+            "nbr": null,
+            "designation": 2,
+            "designationText": "Dev Team"
+          },
+          {
+            "id": "1139",
+            "title": "Jay",
+            "str": "Jay",
+            "nbr": null,
+            "designation": 2,
+            "designationText": "Dev Team"
+          },
+          {
+            "id": "1134",
+            "title": "Vijay",
+            "str": "Vijay",
+            "nbr": null,
+            "designation": 2,
+            "designationText": "Dev Team"
+          },
+          {
+            "id": "1132",
+            "title": "Harshitha",
+            "str": "Harshita",
+            "nbr": null,
+            "designation": 2,
+            "designationText": "Dev Team"
+          },
+          {
+            "id": "1131",
+            "title": "William",
+            "str": "William",
+            "nbr": null,
+            "designation": 4,
+            "designationText": "BA"
+          },
+          {
+            "id": "1130",
+            "title": "James",
+            "str": "James",
+            "nbr": null,
+            "designation": 3,
+            "designationText": "SDT"
+          },
+          {
+            "id": "1115",
+            "title": "Natasha",
+            "str": "Natasha",
+            "nbr": null,
+            "designation": 4,
+            "designationText": "BA"
+          },
+          {
+            "id": "1109",
+            "title": "Bharadwaja",
+            "str": "Bharadwaja",
+            "nbr": null,
+            "designation": 2,
+            "designationText": "Dev Team"
+          },
+          {
+            "id": "1100",
+            "title": "Ajay",
+            "str": "Ajay",
+            "nbr": null,
+            "designation": 2,
+            "designationText": "Dev Team"
+          },
+          {
+            "id": "30",
+            "title": "Charan",
+            "str": "Charan",
+            "nbr": null,
+            "designation": 3,
+            "designationText": "SDT"
+          },
+          {
+            "id": "1117",
+            "title": "Ruchitha",
+            "str": "Ruchitha",
+            "nbr": null,
+            "designation": 4,
+            "designationText": "BA"
+          },
+          {
+            "id": "1093",
+            "title": "Naveen",
+            "str": "Naveen",
+            "nbr": null,
+            "designation": 2,
+            "designationText": "Dev Team"
+          },
+          {
+            "id": "1088",
+            "title": "Lavanya",
+            "str": "Lavanya",
+            "nbr": null,
+            "designation": 2,
+            "designationText": "Dev Team"
+          },
+          {
+            "id": "1080",
+            "title": "Ratiranjan",
+            "str": "Ratiranjan",
+            "nbr": null,
+            "designation": 2,
+            "designationText": "Dev Team"
+          },
+          {
+            "id": "1066",
+            "title": "Jiban",
+            "str": "Jiban",
+            "nbr": null,
+            "designation": 2,
+            "designationText": "Dev Team"
+          },
+          {
+            "id": "1038",
+            "title": "sameer",
+            "str": "sameer",
+            "nbr": null,
+            "designation": 2,
+            "designationText": "Dev Team"
+          },
+          {
+            "id": "872",
+            "title": "Jaya Krishna",
+            "str": "JayaKrishna",
+            "nbr": null,
+            "designation": 2,
+            "designationText": "Dev Team"
+          },
+          {
+            "id": "855",
+            "title": "Naganath",
+            "str": "Naganath",
+            "nbr": null,
+            "designation": 2,
+            "designationText": "Dev Team"
+          },
+          {
+            "id": "755",
+            "title": "Riya",
+            "str": "Riya",
+            "nbr": null,
+            "designation": 4,
+            "designationText": "BA"
+          },
+          {
+            "id": "1138",
+            "title": "Jinisha",
+            "str": "Jinisha",
+            "nbr": null,
+            "designation": 2,
+            "designationText": "Dev Team"
+          },
+          {
+            "id": "1116",
+            "title": "Neha",
+            "str": "Neha",
+            "nbr": null,
+            "designation": 4,
+            "designationText": "BA"
+          },
+          {
+            "id": "1114",
+            "title": "Mehak",
+            "str": "Mehak",
+            "nbr": null,
+            "designation": 4,
+            "designationText": "BA"
+          },
+          {
+            "id": "1118",
+            "title": "Sai Santhosh",
+            "str": "SaiSanthosh",
+            "nbr": null,
+            "designation": 4,
+            "designationText": "BA"
+          },
+          {
+            "id": "1120",
+            "title": "Saumya",
+            "str": "Saumya",
+            "nbr": null,
+            "designation": 4,
+            "designationText": "BA"
+          },
+          {
+            "id": "1127",
+            "title": "Archita",
+            "str": "Archita",
+            "nbr": null,
+            "designation": 4,
+            "designationText": "BA"
+          },
+          {
+            "id": "1113",
+            "title": "Srinivasarao",
+            "str": "Srinivasarao",
+            "nbr": null,
+            "designation": 4,
+            "designationText": "BA"
+          },
+          {
+            "id": "1124",
+            "title": "Yashaswini",
+            "str": "Yashaswini",
+            "nbr": null,
+            "designation": 4,
+            "designationText": "BA"
+          },
+          {
+            "id": "1110",
+            "title": "Krishna Santuka",
+            "str": "KrishnaSantuka",
+            "nbr": null,
+            "designation": 4,
+            "designationText": "BA"
+          },
+          {
+            "id": "1126",
+            "title": "Anukriti",
+            "str": "Anukriti",
+            "nbr": null,
+            "designation": 4,
+            "designationText": "BA"
+          }
+        ],
+        "fontSizeX": "15",
+        "headerheightX": 104,
+        "headerWidthX": 300,
+        "xCommonHeaderColor": true
+      },
+      "Y": {
+        "headerBackgroundY": "#f8b2b2",
+        "fontColor": "#f50e0e",
+        "countColorY": "#fc2828",
+        "groupBy": "custrecord_knz_kmcf_priority",
+        "hideHeaderY": {},
+        "Y_header_sequence": "desc",
+        "sequencey": [],
+        "yColumnsColor": "#eeeaea",
+        "headerheightY": "93",
+        "headerWidth": "200",
+        "fontSizeY": "15",
+        "yCommonHeaderColor": true
+      }
+    },
+    "cardSettings": {
+      "row1fontColor": "#000000",
+      "row2fontColor": "#000000",
+      "countBackgroundColor": "#e7cece",
+      "countFontColor": "#000",
+      "selectedCardColor": "#c27f7f",
+      "selectedCardBorderColor": "#000",
+      "row1Select": [
+        {
+          "id": "name",
+          "label": "Name",
+          "value": "name",
+          "type": "1"
+        },
+        {
+          "id": "created",
+          "label": "Created On",
+          "value": "created",
+          "type": "4"
+        },
+        {
+          "id": "lastmodified",
+          "label": "Last Modified On",
+          "value": "lastmodified",
+          "type": "4"
+        },
+        {
+          "id": "custrecord_knz_kmcf_ba_responsibility",
+          "label": "BA Responsibility",
+          "value": "custrecord_knz_kmcf_ba_responsibility",
+          "type": "9"
+        },
+        {
+          "id": "custrecord_knz_kmcf_fun_responsibility",
+          "label": "Functional Responsibility",
+          "value": "custrecord_knz_kmcf_fun_responsibility",
+          "type": "9"
+        },
+        {
+          "id": "custrecord_knz_kmcf_project_manager",
+          "label": "Project Manager",
+          "value": "custrecord_knz_kmcf_project_manager",
+          "type": "2"
+        },
+        {
+          "id": "custrecord_knz_kmcf_dev_responsibility",
+          "label": "Dev Responsibility",
+          "value": "custrecord_knz_kmcf_dev_responsibility",
+          "type": "9"
+        },
+        {
+          "id": "custrecord_knz_kmcf_screen_type",
+          "label": "Screen Type",
+          "value": "custrecord_knz_kmcf_screen_type",
+          "type": "2"
+        }
+      ],
+      "row2Select": [
+        {
+          "id": "lastmodified",
+          "label": "Last Modified On",
+          "value": "lastmodified",
+          "type": "4"
+        },
+        {
+          "id": "custrecord_knz_kmcf_ba_responsibility",
+          "label": "BA Responsibility",
+          "value": "custrecord_knz_kmcf_ba_responsibility",
+          "type": "9"
+        },
+        {
+          "id": "custrecord_knz_knzmaster_lastupdatedby",
+          "label": " Last Updated By",
+          "value": "custrecord_knz_knzmaster_lastupdatedby",
+          "type": "2"
+        },
+        {
+          "id": "custrecord_knz_kmcf_auto_id",
+          "label": "Master ID",
+          "value": "custrecord_knz_kmcf_auto_id",
+          "type": "1"
+        },
+        {
+          "id": "custrecord_knz_kmcf_plan_to",
+          "label": " Plan To",
+          "value": "custrecord_knz_kmcf_plan_to",
+          "type": "4"
+        }
+      ],
+      "cardColor": "#f3d2d2",
+      "cardBorderColor": "#d31616"
+    },
+    "display": {
+      "custrecord_knz_kmcf_task_status": true,
+      "name": true,
+      "custrecord_knz_kmcf_fun_responsibility": true,
+      "custrecord_knz_kmcf_project_manager": true,
+      "custrecord_knz_kmcf_dev_responsibility": true,
+      "custrecord_knz_kmcf_process_areas": true,
+      "custrecord_knz_kmcf_due_date": true,
+      "custrecord_knz_kmcf_screen_type": true,
+      "custrecord_knz_kmcf_is_integration": true,
+      "custrecord_knz_kmcf_ba_responsibility": true,
+      "lastmodified": true,
+      "created": true
+    }
+  }
+}
