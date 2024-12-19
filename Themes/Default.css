@@ -451,6 +451,9 @@
   --pheader-height: 55px;
   --pheader-padding: 8px 14px;
   --pheader-margin: 5px;
+  --pheader-breadcrumb-font-color: #4e4e4e;
+  --pheader-breadcrumb-font-size: 14px;
+  --pheader-breadcrumb-font-weight: 400;
   --pheader-icon-color: #4e4e4e;
   --pheader-icon-font: 55px;
   --pheader-icon-margin: 10px;
