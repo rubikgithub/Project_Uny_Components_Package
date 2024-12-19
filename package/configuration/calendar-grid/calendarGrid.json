@@ -1,0 +1,14 @@
+{
+  "json": {
+    "cardSettings": {
+      "headerColor": "#fff",
+      "countColor": "#fff",
+      "weekendColor": "#fff",
+      "todaysColor": "#fff",
+      "ntTextColor": "#f1e8e8",
+      "ntBackgroundColor": "#d51313",
+      "selectViews": "dates",
+      "sortByView": "expirydate"
+    }
+  }
+}
