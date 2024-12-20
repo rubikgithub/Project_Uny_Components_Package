@@ -1,0 +1,28 @@
+{
+  "json": {
+    "TargetSettings": {
+      "cardBackgroundColor": "#e6b3b3",
+      "cardBorderColor": "#eecaca",
+      "selectedCardColor": "#f11212",
+      "selectedCardBorderColor": "#2e3bf1",
+      "valueColor": "#000",
+      "tabFontColor": "#180303",
+      "selectedTabFontColor": "#160af3",
+      "selectedTabCountColor": "#e6dbdf",
+      "tabCountColor": "#e91d1d",
+      "selectedTabCountSize": "15",
+      "tooltipAlignment": "top",
+      "tooltip": {
+        "purpose": true,
+        "publish_key": true,
+        "secret_key": true,
+        "name": true
+      },
+      "selectedTabFontSize": "15",
+      "tabCountSize": "17"
+    },
+    "filters": {
+      "visibleCounts": true
+    }
+  }
+}
