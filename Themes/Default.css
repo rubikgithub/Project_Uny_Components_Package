@@ -614,6 +614,8 @@
   --uny-tabs-left-header-margin-right: 15px;
   --uny-tabs-left-header-uny-tab-item-border-right: 2px solid transparent;
   --uny-tabs-left-content-flex-grow: 1;
+  --vertical-tabs-active-bg-color: #dadada;
+  --vertical-tabs-active-font-color: #ffffff;
   --tooltip-general-background-color: #d6ecff;
   --tooltip-general-font-weight: 600;
   --tooltip-general-text-align: center;
