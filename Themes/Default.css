@@ -325,8 +325,8 @@
   --form-control-group-background: #f5f5f5 !important;
   --form-control-group-border: none !important;
   --form-control-group-outline: none !important;
-  --form-control-label-color: #eaeaea;
-  --form-control-value-color: #f5f5f5;
+  --form-control-label-color: #6c6c6c;
+  --form-control-value-color: #000000;
   --body-background-color: #eeeeee;
   --body-font-color: #000;
   --body-font-size: 12px;
