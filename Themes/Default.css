@@ -148,15 +148,14 @@
   --button-link-hover-border-color: transparent;
   --button-circle-width: 35px;
   --button-circle-height: 35px;
-  --button-primary-color: #ffffff;
   --button-primary-border-color: #10172B;
   --button-primary-hover-color: #ffffff;
   --button-primary-hover-background-color: #253563;
   --button-primary-hover-border-color: #253563;
   --button-primary-background-color: #10172b;
-  --button-primary-font-color: #ffffff;
-  --button-secondary-border-color: #10172b;
-  --button-secondary-font-color: #10172b;
+  --button-primary-color: #ffffff;
+  --button-secondary-border-color: #e3e3e3;
+  --button-secondary-font-color: #000000;
   --button-danger-background-color: #ff4d4f;
   --button-danger-font-color: #ffffff;
   --checkbox-display: flex;
