@@ -382,6 +382,7 @@
   --group-bg-color: #dadada;
   --group-font-color: #f2f7f5;
   --page-header-general-background-color: #fff;
+  --page-header-general-font-color: lightgreen;
   --page-header-general-color: #4e4e4e;
   --page-header-general-font-size: 17px;
   --page-header-general-font-weight: 400;
@@ -616,6 +617,8 @@
   --uny-tabs-left-content-flex-grow: 1;
   --vertical-tabs-active-bg-color: #dadada;
   --vertical-tabs-active-font-color: #ffffff;
+  --vertical-tabs-mouseover-bg-color: #dadada;
+  --vertical-tabs-mouseover-font-color: #ffffff;
   --tooltip-general-background-color: #d6ecff;
   --tooltip-general-font-weight: 600;
   --tooltip-general-text-align: center;
