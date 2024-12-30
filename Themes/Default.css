@@ -320,6 +320,8 @@
   --form-control-group-background: #f5f5f5 !important;
   --form-control-group-border: none !important;
   --form-control-group-outline: none !important;
+  --form-control-label-color: #eaeaea;
+  --form-control-value-color: #f5f5f5;
   --body-background-color: #eeeeee;
   --body-font-color: #000;
   --body-font-size: 12px;
@@ -377,6 +379,8 @@
   --info-item-value-border-radius: 4px;
   --info-item-value-font-size: 14px;
   --info-item-value-color: #333;
+  --group-bg-color: #dadada;
+  --group-font-color: #f2f7f5;
   --page-header-general-background-color: #fff;
   --page-header-general-color: #4e4e4e;
   --page-header-general-font-size: 17px;
@@ -610,6 +614,8 @@
   --uny-tabs-left-header-margin-right: 15px;
   --uny-tabs-left-header-uny-tab-item-border-right: 2px solid transparent;
   --uny-tabs-left-content-flex-grow: 1;
+  --vertical-tabs-active-bg-color: #dadada;
+  --vertical-tabs-active-font-color: #ffffff;
   --tooltip-general-background-color: #d6ecff;
   --tooltip-general-font-weight: 600;
   --tooltip-general-text-align: center;
