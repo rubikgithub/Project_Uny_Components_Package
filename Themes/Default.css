@@ -660,8 +660,8 @@
   --uny-tooltip-placement-left-uny-tooltip-arrow-border-width: 6px 0 6px 6px;
   --uny-tooltip-placement-right-uny-tooltip-arrow-left: -6px;
   --uny-tooltip-placement-right-uny-tooltip-arrow-border-width: 6px 6px 6px 0;
-  --vertical-tabs-active-bg-color: #dadada;
+  --vertical-tabs-active-bg-color: #000000;
   --vertical-tabs-active-font-color: #ffffff;
-  --vertical-tabs-mouseover-bg-color: #dadada;
-  --vertical-tabs-mouseover-font-color: #ffffff;
+  --vertical-tabs-mouseover-bg-color: #f0f0f0;
+  --vertical-tabs-mouseover-font-color: #000000;
 }
