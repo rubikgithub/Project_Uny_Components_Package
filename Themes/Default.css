@@ -624,6 +624,8 @@
   --vertical-tabs-active-font-color: #ffffff;
   --vertical-tabs-mouseover-bg-color: #dadada;
   --vertical-tabs-mouseover-font-color: #ffffff;
+  --horizontal-tabs-active-underline-color: #dadada;
+  --horizontal-tabs-mouseover-bg-color: #ffffff;
   --tooltip-general-background-color: #d6ecff;
   --tooltip-general-font-weight: 600;
   --tooltip-general-text-align: center;
