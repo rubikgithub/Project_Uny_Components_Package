@@ -395,6 +395,8 @@
   --page-header-general-padding: 0px 15px;
   --page-header-general-box-shadow: 2px 2px 2px 2px rgb(237, 237, 237);
   --page-header-general-border-color: #000;
+  --horizontal-tabs-active-underline-color: #dadada;
+  --horizontal-tabs-mouseover-bg-color: #ffffff;
   --input-width: 100%;
   --input-padding: 8px;
   --input-font-size: 14px;
@@ -658,4 +660,8 @@
   --uny-tooltip-placement-left-uny-tooltip-arrow-border-width: 6px 0 6px 6px;
   --uny-tooltip-placement-right-uny-tooltip-arrow-left: -6px;
   --uny-tooltip-placement-right-uny-tooltip-arrow-border-width: 6px 6px 6px 0;
+  --vertical-tabs-active-bg-color: #dadada;
+  --vertical-tabs-active-font-color: #ffffff;
+  --vertical-tabs-mouseover-bg-color: #dadada;
+  --vertical-tabs-mouseover-font-color: #ffffff;
 }
