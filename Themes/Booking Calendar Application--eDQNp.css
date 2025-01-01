@@ -478,7 +478,7 @@
   --pmenu-margin: 5px;
   --navbar-background-color: #04ac5b;
   --navbar-width: 250px;
-  --navbar-header-background-color: #90f3a938;
+  --navbar-header-background-color: #ffffff;
   --navbar-devider-color: #90f3a938;
   --navbar-footer-background-color: #90f3a938;
   --navbar-settings-font-color: #fefefe;
@@ -486,13 +486,13 @@
   --navbar-settings-height: 40px;
   --navbar-settings-margin: 5px;
   --navbar-settings-hover-style: background;
-  --navbar-settings-hover-style-color: #ffffff;
+  --navbar-settings-hover-style-color: #c5f8c6;
   --navbar-item-font-weight: 5px;
-  --navbar-hover-font-color: #000000;
+  --navbar-hover-font-color: #000000a5;
   --navbar-settings-active-style: background;
-  --navbar-settings-active-style-color: #93d129;
+  --navbar-settings-active-style-color: #ffffff;
   --navbar-active-font-weight: #212325;
-  --navbar-active-font-color: #ffffff;
+  --navbar-active-font-color: #000000;
   --navbar-sub-settings-background-color: #89f7847c;
   --navbar-sub-settings-font-color: #212325;
   --navbar-sub-settings-height: 40px;
