@@ -459,8 +459,8 @@
   --pbreadcrumb-active-font-color: #000;
   --pbreadcrumb-hover-font-color: #000;
   --pbreadcrumb-separator-color: #555;
-  --pheader-background-color: #f8f9fa;
-  --pheader-font-color: #4e4e4e;
+  --pheader-background-color: #90f3a938;
+  --pheader-font-color: #000000;
   --pheader-height: 55px;
   --pheader-padding: 8px 14px;
   --pheader-margin: 5px;
@@ -478,9 +478,9 @@
   --pmenu-margin: 5px;
   --navbar-background-color: #04ac5b;
   --navbar-width: 250px;
-  --navbar-header-background-color: #ffffff87;
-  --navbar-devider-color: #ddd;
-  --navbar-footer-background-color: #eaeaea;
+  --navbar-header-background-color: #90f3a938;
+  --navbar-devider-color: #90f3a938;
+  --navbar-footer-background-color: #90f3a938;
   --navbar-settings-font-color: #fefefe;
   --navbar-settings-font-weight: 400;
   --navbar-settings-height: 40px;
@@ -493,7 +493,7 @@
   --navbar-settings-active-style-color: #93d129;
   --navbar-active-font-weight: #212325;
   --navbar-active-font-color: #ffffff;
-  --navbar-sub-settings-background-color: #eaeaea;
+  --navbar-sub-settings-background-color: #89f7847c;
   --navbar-sub-settings-font-color: #212325;
   --navbar-sub-settings-height: 40px;
   --navbar-sub-settings-margin: 5px;
