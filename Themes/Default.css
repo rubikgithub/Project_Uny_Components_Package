@@ -215,7 +215,7 @@
   --uny-drawer-overlay-right: 0;
   --uny-drawer-overlay-bottom: 0;
   --drawer-header-bg-color: #eaeaea;
-  --drawer-font-color: red;
+  --drawer-font-color: #ee9898;
   --drawer-footer-bg-color: #eaeaea;
   --uny-dropdown-position: relative;
   --uny-dropdown-display: inline-block;
@@ -460,6 +460,9 @@
   --login-bg-image-3: url...;
   --login-bg-image-4: url...;
   --login-bg-image-5: url...;
+  --modalbox-header-bg-color: #EAEAEA;
+  --modalbox-font-color: #EE9898;
+  --modalbox-footer-bg-color: #EAEAEA;
   --pbreadcrumb-font-color: #555;
   --pbreadcrumb-active-font-color: #000;
   --pbreadcrumb-hover-font-color: #000;
