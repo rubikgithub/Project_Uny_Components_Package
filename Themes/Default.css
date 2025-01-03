@@ -391,8 +391,8 @@
   --group-header-background-color: #f2f7ff;
   --group-header-color: rgba(0, 0, 0, 0.88);
   --page-header-general-background-color: #ffffff;
-  --page-header-general-font-color: #90EE90;
   --page-header-general-color: #4e4e4e;
+  --page-header-general-font-color: #90EE90;
   --page-header-general-font-size: 17px;
   --page-header-general-font-weight: 400;
   --page-header-general-height: 52px;
@@ -463,10 +463,6 @@
   --modalbox-header-bg-color: #eaeaea;
   --modalbox-font-color: #ee9898;
   --modalbox-footer-bg-color: #eaeaea;
-  --form-control-label-color: #6c6c6c;
-  --form-control-value-color: #000000;
-  --form-control-field-label: capitalize;
-  --form-control-field-setting: withBackground;
   --pbreadcrumb-font-color: #555;
   --pbreadcrumb-active-font-color: #000;
   --pbreadcrumb-hover-font-color: #000;
