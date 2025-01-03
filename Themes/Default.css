@@ -214,6 +214,9 @@
   --uny-drawer-overlay-left: 0;
   --uny-drawer-overlay-right: 0;
   --uny-drawer-overlay-bottom: 0;
+  --drawer-header-bg-color: #eaeaea;
+  --drawer-font-color: #ee9898;
+  --drawer-footer-bg-color: #eaeaea;
   --uny-dropdown-position: relative;
   --uny-dropdown-display: inline-block;
   --uny-dropdown-trigger-cursor: pointer;
@@ -326,6 +329,8 @@
   --form-control-group-outline: none !important;
   --form-control-label-color: #6c6c6c;
   --form-control-value-color: #000000;
+  --form-control-field-label: capitalize;
+  --form-control-field-setting: withBackground;
   --body-background-color: #eeeeee;
   --body-font-color: #000;
   --body-font-size: 12px;
@@ -455,6 +460,9 @@
   --login-bg-image-3: url...;
   --login-bg-image-4: url...;
   --login-bg-image-5: url...;
+  --modalbox-header-bg-color: #eaeaea;
+  --modalbox-font-color: #ee9898;
+  --modalbox-footer-bg-color: #eaeaea;
   --pbreadcrumb-font-color: #555;
   --pbreadcrumb-active-font-color: #000;
   --pbreadcrumb-hover-font-color: #000;
