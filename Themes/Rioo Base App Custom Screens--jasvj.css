@@ -152,9 +152,9 @@
   --button-primary-hover-color: #ffffff;
   --button-primary-hover-background-color: #253563;
   --button-primary-hover-border-color: #253563;
-  --button-primary-background-color: #10172b;
-  --button-primary-color: #ffffff;
-  --button-secondary-border-color: #e3e3e3;
+  --button-primary-background-color: #162547;
+  --button-primary-color: #f4b4b4;
+  --button-secondary-border-color: #aca2a2;
   --button-secondary-font-color: #000000;
   --button-danger-background-color: #ff4d4f;
   --button-danger-font-color: #ffffff;
@@ -667,8 +667,8 @@
   --uny-tooltip-placement-left-uny-tooltip-arrow-border-width: 6px 0 6px 6px;
   --uny-tooltip-placement-right-uny-tooltip-arrow-left: -6px;
   --uny-tooltip-placement-right-uny-tooltip-arrow-border-width: 6px 6px 6px 0;
-  --vertical-tabs-active-bg-color: #000000;
-  --vertical-tabs-active-font-color: #ffffff;
-  --vertical-tabs-mouseover-bg-color: #f0f0f0;
-  --vertical-tabs-mouseover-font-color: #000000;
+  --vertical-tabs-active-bg-color: #f49c9c;
+  --vertical-tabs-active-font-color: #989191;
+  --vertical-tabs-mouseover-bg-color: #77a965;
+  --vertical-tabs-mouseover-font-color: #fbf4f4;
 }
