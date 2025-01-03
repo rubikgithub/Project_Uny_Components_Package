@@ -327,7 +327,7 @@
   --form-control-group-background: #f5f5f5 !important;
   --form-control-group-border: none !important;
   --form-control-group-outline: none !important;
-  --form-control-label-color: #f47b7b;
+  --form-control-label-color: #b79999;
   --form-control-value-color: #ac7f7f;
   --form-control-field-label: capitalize;
   --form-control-field-setting: withBackground;
@@ -391,7 +391,7 @@
   --group-header-background-color: #0a69f8;
   --group-header-color: rgba(241, 169, 169, 0.88);
   --page-header-general-background-color: #5db2f3;
-  --page-header-general-font-color: #c59c09;
+  --page-header-general-font-color: #d8cead;
   --page-header-general-color: #4e4e4e;
   --page-header-general-font-size: 17px;
   --page-header-general-font-weight: 400;
