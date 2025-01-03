@@ -214,6 +214,9 @@
   --uny-drawer-overlay-left: 0;
   --uny-drawer-overlay-right: 0;
   --uny-drawer-overlay-bottom: 0;
+  --drawer-header-bg-color: #eaeaea;
+  --drawer-font-color: red;
+  --drawer-footer-bg-color: #eaeaea;
   --uny-dropdown-position: relative;
   --uny-dropdown-display: inline-block;
   --uny-dropdown-trigger-cursor: pointer;
