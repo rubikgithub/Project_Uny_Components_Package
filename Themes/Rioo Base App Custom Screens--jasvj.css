@@ -399,10 +399,10 @@
   --page-header-general-padding: 0px 15px;
   --page-header-general-box-shadow: 2px 2px 2px 2px rgb(237, 237, 237);
   --page-header-general-border-color: #000;
-  --horizontal-tabs-active-underline-color: #002145;
-  --horizontal-tabs-active-font-color: #002145;
-  --horizontal-tabs-mouseover-bg-color: #f0f0f0;
-  --horizontal-tabs-mouseover-font-color: #6c6c6c;
+  --horizontal-tabs-active-underline-color: #1682f5;
+  --horizontal-tabs-active-font-color: #cb9bf1;
+  --horizontal-tabs-mouseover-bg-color: #d58a8a;
+  --horizontal-tabs-mouseover-font-color: #f8eeee;
   --input-width: 100%;
   --input-padding: 8px;
   --input-font-size: 14px;
