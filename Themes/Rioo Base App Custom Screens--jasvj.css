@@ -144,10 +144,10 @@
   --button-primary-hover-color: #ffffff;
   --button-primary-hover-background-color: #253563;
   --button-primary-hover-border-color: #253563;
-  --button-primary-background-color: #162547;
-  --button-primary-color: #f4b4b4;
+  --button-primary-background-color: #00135d;
+  --button-primary-color: #ffffff;
   --button-secondary-border-color: #aca2a2;
-  --button-secondary-font-color: #000000;
+  --button-secondary-font-color: #525252;
   --button-danger-background-color: #ff4d4f;
   --button-danger-font-color: #ffffff;
   --checkbox-display: flex;
@@ -388,7 +388,7 @@
   --info-item-value-border-radius: 4px;
   --info-item-value-font-size: 14px;
   --info-item-value-color: #333;
-  --group-header-background-color: #d0d0d0;
+  --group-header-background-color: #d7d7d7;
   --group-header-color: rgba(0, 0, 0, 0.88);
   --page-header-general-background-color: #ffffff;
   --page-header-general-color: #4e4e4e;
