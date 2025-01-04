@@ -673,8 +673,8 @@
   --vertical-tabs-item-font-size: 14px;
   --vertical-tabs-item-font-weight: 350;
   --vertical-tabs-item-font-style: capitalize;
-  --vertical-tabs-content-spacing: 5px;
+  --vertical-tabs-content-spacing: 8px;
   --vertical-tabs-content-border-radius: 8px;
   --vertical-tabs-content-bg-color: #ffffff;
-  --vertical-tabs-content-left-margin: 10px;
+  --vertical-tabs-content-left-margin: 7px;
 }
