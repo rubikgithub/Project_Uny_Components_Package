@@ -321,9 +321,9 @@
   --form-control-group-border: none !important;
   --form-control-group-outline: none !important;
   --form-control-label-color: #686868;
-  --form-control-field-label: capitalize;
-  --form-control-label-font-size: 12px;
-  --form-control-label-font-weight: 400;
+  --form-control-field-label: uppercase;
+  --form-control-label-font-size: 11px;
+  --form-control-label-font-weight: 500;
   --form-control-value-bg-color: #ffffff;
   --form-control-value-color: #000000;
   --form-control-border-color: #dadada;
@@ -672,7 +672,7 @@
   --vertical-tabs-mouseover-font-color: #908383;
   --vertical-tabs-item-font-size: 14px;
   --vertical-tabs-item-font-weight: 350;
-  --vertical-tabs-item-font-style: capitalize;
+  --vertical-tabs-item-font-style: uppercase;
   --vertical-tabs-content-spacing: 8px;
   --vertical-tabs-content-border-radius: 8px;
   --vertical-tabs-content-bg-color: #ffffff;
