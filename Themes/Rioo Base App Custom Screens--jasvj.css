@@ -321,9 +321,9 @@
   --form-control-group-border: none !important;
   --form-control-group-outline: none !important;
   --form-control-label-color: #686868;
-  --form-control-field-label: uppercase;
-  --form-control-label-font-size: 11px;
-  --form-control-label-font-weight: 500;
+  --form-control-field-label: capitalize;
+  --form-control-label-font-size: 12px;
+  --form-control-label-font-weight: 400;
   --form-control-value-bg-color: #ffffff;
   --form-control-value-color: #000000;
   --form-control-border-color: #dadada;
@@ -666,8 +666,15 @@
   --uny-tooltip-placement-right-uny-tooltip-arrow-border-width: 6px 6px 6px 0;
   --vertical-tabs-bg-color: #ffffff;
   --vertical-tabs-border-color: #dedede;
-  --vertical-tabs-active-bg-color: #d7d7d7;
-  --vertical-tabs-active-font-color: #000000;
+  --vertical-tabs-active-bg-color: #dacdcd;
+  --vertical-tabs-active-font-color: #dfa7a7;
   --vertical-tabs-mouseover-bg-color: #f7f3f3;
   --vertical-tabs-mouseover-font-color: #000000;
+  --vertical-tabs-item-font-size: 14px;
+  --vertical-tabs-item-font-weight: 350;
+  --vertical-tabs-item-font-style: capitalize;
+  --vertical-tabs-content-spacing: 5px;
+  --vertical-tabs-content-border-radius: 8px;
+  --vertical-tabs-content-bg-color: #ffffff;
+  --vertical-tabs-content-left-margin: 10px;
 }
