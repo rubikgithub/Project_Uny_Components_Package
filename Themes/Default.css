@@ -670,4 +670,7 @@
   --vertical-tabs-active-font-color: #ffffff;
   --vertical-tabs-mouseover-bg-color: #f0f0f0;
   --vertical-tabs-mouseover-font-color: #000000;
+  --vertical-tabs-item-font-size: 13px;
+  --vertical-tabs-item-font-weight: 350;
+  --vertical-tabs-item-font-style: capitalize;
 }
