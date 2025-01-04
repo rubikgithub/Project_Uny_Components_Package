@@ -673,4 +673,8 @@
   --vertical-tabs-item-font-size: 13px;
   --vertical-tabs-item-font-weight: 350;
   --vertical-tabs-item-font-style: capitalize;
+  --vertical-tabs-content-spacing: 5px;
+  --vertical-tabs-content-border-radius: 5px;
+  --vertical-tabs-content-background: #ffffff;
+  --vertical-tabs-content-left-margin: 5px;
 }
