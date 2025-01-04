@@ -40,7 +40,7 @@
   --block-content-collapsed-opacity: 0;
   --block-content-collapsed-padding-top-bottom: 0;
   --block-content-collapsed-padding-left-right: 10px;
-  --page-background-color: #ffffff;
+  --page-background-color: #f0f0f0;
   --page-font-family: Lexend Deca, sans-serif;
   --page-font-size: 13px;
   --page-font-color: #34383b;
@@ -321,13 +321,16 @@
   --form-control-group-border: none !important;
   --form-control-group-outline: none !important;
   --form-control-label-color: #686868;
+  --form-control-field-label: uppercase;
+  --form-control-label-font-size: 11px;
+  --form-control-label-font-weight: 500;
   --form-control-value-bg-color: #ffffff;
   --form-control-value-color: #000000;
-  --form-control-field-label: capitalize;
   --form-control-border-color: #dadada;
-  --form-control-view-value-bg-color: #f7eaea00;
+  --form-control-view-value-bg-color: #f5f3f3;
   --form-control-view-value-color: #000000;
   --form-control-view-border-color: #f0e9e900;
+  --form-control-view-value-padding: 12px;
   --body-background-color: #eeeeee;
   --body-font-color: #000;
   --body-font-size: 12px;
