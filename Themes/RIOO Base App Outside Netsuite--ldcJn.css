@@ -40,7 +40,7 @@
   --block-content-collapsed-opacity: 0;
   --block-content-collapsed-padding-top-bottom: 0;
   --block-content-collapsed-padding-left-right: 10px;
-  --page-background-color: #ffffff;
+  --page-background-color: #f1f1f177;
   --page-font-family: Lexend Deca, sans-serif;
   --page-font-size: 13px;
   --page-font-color: #212325;
@@ -49,14 +49,6 @@
   --page-hover-button-bg: #f1f1f1;
   --page-hover-button-color: #f1f1f1;
   --page-hover-button-border-radius: #f1f1f1;
-  --page-drawer-header-bg: #ffffff;
-  --page-drawer-header-color: #212325;
-  --page-drawer-footer-bg: #ffffff;
-  --page-drawer-footer-color: #212325;
-  --page-modal-header-bg: #ffffff;
-  --page-modal-header-color: #212325;
-  --page-modal-footer-bg: #ffffff;
-  --page-modal-footer-color: #212325;
   --uny-btn-display: inline-flex;
   --uny-btn-align-items: center;
   --uny-btn-justify-content: center;
@@ -214,6 +206,10 @@
   --uny-drawer-overlay-left: 0;
   --uny-drawer-overlay-right: 0;
   --uny-drawer-overlay-bottom: 0;
+  --page-drawer-header-bg: #ffffff;
+  --page-drawer-header-color: #212325;
+  --page-drawer-footer-bg: #ffffff;
+  --page-drawer-footer-color: #212325;
   --uny-dropdown-position: relative;
   --uny-dropdown-display: inline-block;
   --uny-dropdown-trigger-cursor: pointer;
@@ -326,6 +322,8 @@
   --form-control-group-outline: none !important;
   --form-control-label-color: #000000;
   --form-control-value-color: #000000;
+  --form-control-field-label: capitalize;
+  --form-control-field-setting: #F5F8FB;
   --body-background-color: #eeeeee;
   --body-font-color: #000;
   --body-font-size: 12px;
@@ -386,8 +384,8 @@
   --group-header-background-color: #656769;
   --group-header-color: rgba(255, 255, 255, 0.88);
   --page-header-general-background-color: #ffffff;
-  --page-header-general-font-color: #000000;
   --page-header-general-color: #4e4e4e;
+  --page-header-general-font-color: #90EE90;
   --page-header-general-font-size: 17px;
   --page-header-general-font-weight: 400;
   --page-header-general-height: 52px;
@@ -455,6 +453,10 @@
   --login-bg-image-3: url...;
   --login-bg-image-4: url...;
   --login-bg-image-5: url...;
+  --page-modal-header-bg: #f1f1f177;
+  --page-modal-header-color: #212325;
+  --page-modal-footer-bg: #ffffff;
+  --page-modal-footer-color: #212325;
   --pbreadcrumb-font-color: #555;
   --pbreadcrumb-active-font-color: #000;
   --pbreadcrumb-hover-font-color: #000;
