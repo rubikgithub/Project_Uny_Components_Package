@@ -665,9 +665,9 @@
   --uny-tooltip-placement-right-uny-tooltip-arrow-left: -6px;
   --uny-tooltip-placement-right-uny-tooltip-arrow-border-width: 6px 6px 6px 0;
   --vertical-tabs-bg-color: #ffffff;
-  --vertical-tabs-border-color: #dadada;
-  --vertical-tabs-active-bg-color: #000000;
-  --vertical-tabs-active-font-color: #ffffff;
-  --vertical-tabs-mouseover-bg-color: #f0f0f0;
+  --vertical-tabs-border-color: #dedede;
+  --vertical-tabs-active-bg-color: #d7d7d7;
+  --vertical-tabs-active-font-color: #000000;
+  --vertical-tabs-mouseover-bg-color: #f7f3f3;
   --vertical-tabs-mouseover-font-color: #000000;
 }
