@@ -658,6 +658,8 @@
   --uny-tooltip-placement-left-uny-tooltip-arrow-border-width: 6px 0 6px 6px;
   --uny-tooltip-placement-right-uny-tooltip-arrow-left: -6px;
   --uny-tooltip-placement-right-uny-tooltip-arrow-border-width: 6px 6px 6px 0;
+  --vertical-tabs-bg-color: #000000;
+  --vertical-tabs-border-color: #ffffff;
   --vertical-tabs-active-bg-color: #000000;
   --vertical-tabs-active-font-color: #ffffff;
   --vertical-tabs-mouseover-bg-color: #f0f0f0;
