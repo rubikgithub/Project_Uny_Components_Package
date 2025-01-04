@@ -323,7 +323,7 @@
   --form-control-label-color: #686868;
   --form-control-value-color: #000000;
   --form-control-field-label: capitalize;
-  --form-control-field-setting: #d02c2c;
+  --form-control-field-setting: #b82a2a;
   --body-background-color: #eeeeee;
   --body-font-color: #000;
   --body-font-size: 12px;
@@ -383,7 +383,7 @@
   --info-item-value-color: #333;
   --group-header-background-color: #d0d0d0;
   --group-header-color: rgba(0, 0, 0, 0.88);
-  --page-header-general-background-color: #5db2f3;
+  --page-header-general-background-color: #ffffff;
   --page-header-general-color: #4e4e4e;
   --page-header-general-font-color: #90EE90;
   --page-header-general-font-size: 17px;
@@ -392,10 +392,10 @@
   --page-header-general-padding: 0px 15px;
   --page-header-general-box-shadow: 2px 2px 2px 2px rgb(237, 237, 237);
   --page-header-general-border-color: #000;
-  --horizontal-tabs-active-underline-color: #1682f5;
-  --horizontal-tabs-active-font-color: #cb9bf1;
-  --horizontal-tabs-mouseover-bg-color: #d58a8a;
-  --horizontal-tabs-mouseover-font-color: #f8eeee;
+  --horizontal-tabs-active-underline-color: #000000;
+  --horizontal-tabs-active-font-color: #000000;
+  --horizontal-tabs-mouseover-bg-color: #d8d6d6c9;
+  --horizontal-tabs-mouseover-font-color: #000000;
   --input-width: 100%;
   --input-padding: 8px;
   --input-font-size: 14px;
