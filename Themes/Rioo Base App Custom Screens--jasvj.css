@@ -40,7 +40,7 @@
   --block-content-collapsed-opacity: 0;
   --block-content-collapsed-padding-top-bottom: 0;
   --block-content-collapsed-padding-left-right: 10px;
-  --page-background-color: #f0f0f0;
+  --page-background-color: #f1efed;
   --page-font-family: Lexend Deca, sans-serif;
   --page-font-size: 13px;
   --page-font-color: #34383b;
@@ -327,9 +327,9 @@
   --form-control-value-bg-color: #ffffff;
   --form-control-value-color: #000000;
   --form-control-border-color: #dadada;
-  --form-control-view-value-bg-color: #f5f8fb;
+  --form-control-view-value-bg-color: #ffffff;
   --form-control-view-value-color: #000000;
-  --form-control-view-border-color: #ffffff00;
+  --form-control-view-border-color: #dadada;
   --form-control-view-value-padding: 12px;
   --body-background-color: #eeeeee;
   --body-font-color: #000;
