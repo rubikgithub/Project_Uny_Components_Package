@@ -321,16 +321,9 @@
   --form-control-group-border: none !important;
   --form-control-group-outline: none !important;
   --form-control-label-color: #6c6c6c;
-  --form-control-field-label: capitalize;
-  --form-control-label-font-size: 13px;
-  --form-control-label-font-weight: 350;
-  --form-control-value-bg-color: #ffffff;
   --form-control-value-color: #000000;
-  --form-control-border-color: #dadada;
-  --form-control-view-value-bg-color: #ffffff;
-  --form-control-view-value-color: #000000;
-  --form-control-view-border-color: #dadada;
-  --form-control-view-value-padding: 12px;
+  --form-control-field-label: capitalize;
+  --form-control-field-setting: #F5F8FB;
   --body-background-color: #eeeeee;
   --body-font-color: #000;
   --body-font-size: 12px;
@@ -664,17 +657,8 @@
   --uny-tooltip-placement-left-uny-tooltip-arrow-border-width: 6px 0 6px 6px;
   --uny-tooltip-placement-right-uny-tooltip-arrow-left: -6px;
   --uny-tooltip-placement-right-uny-tooltip-arrow-border-width: 6px 6px 6px 0;
-  --vertical-tabs-bg-color: #ffffff;
-  --vertical-tabs-border-color: transparent;
   --vertical-tabs-active-bg-color: #000000;
   --vertical-tabs-active-font-color: #ffffff;
   --vertical-tabs-mouseover-bg-color: #f0f0f0;
   --vertical-tabs-mouseover-font-color: #000000;
-  --vertical-tabs-item-font-size: 14px;
-  --vertical-tabs-item-font-weight: 500;
-  --vertical-tabs-item-font-style: capitalize;
-  --vertical-tabs-content-spacing: 5px;
-  --vertical-tabs-content-border-radius: 8px;
-  --vertical-tabs-content-bg-color: #f1f1f1;
-  --vertical-tabs-content-left-margin: 16px;
 }
