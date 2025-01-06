@@ -322,7 +322,7 @@
   --form-control-group-outline: none !important;
   --form-control-label-color: #686868;
   --form-control-field-label: uppercase;
-  --form-control-label-font-size: 12px;
+  --form-control-label-font-size: 11px;
   --form-control-label-font-weight: 600;
   --form-control-value-bg-color: #ffffff;
   --form-control-value-color: #000000;
@@ -670,7 +670,7 @@
   --vertical-tabs-active-font-color: #000000;
   --vertical-tabs-mouseover-bg-color: #ededed;
   --vertical-tabs-mouseover-font-color: #000000;
-  --vertical-tabs-item-font-size: 12px;
+  --vertical-tabs-item-font-size: 1px;
   --vertical-tabs-item-font-weight: 500;
   --vertical-tabs-item-font-style: uppercase;
   --vertical-tabs-content-spacing: 10px;
