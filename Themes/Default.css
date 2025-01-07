@@ -408,14 +408,15 @@
   --horizontal-tabs-item-font-size: 14px;
   --horizontal-tabs-item-font-weight: 500;
   --horizontal-tabs-item-font-style: capitalize;
-  --horizontal-tabs-four-bg-color: #ffffff;
-  --horizontal-tabs-four-height: 40px;
-  --horizontal-tabs-four-active-underline-color: #002145;
-  --horizontal-tabs-four-active-font-color: #002145;
-  --horizontal-tabs-four-mouseover-bg-color: #f0f0f0;
-  --horizontal-tabs-four-mouseover-font-color: #6c6c6c;
+  --horizontal-tabs-four-bg-color: #f7f7f8;
+  --horizontal-tabs-four-height: 30px;
+  --horizontal-tabs-four-active-bg-color: #ffffff;
+  --horizontal-tabs-four-active-border-color: #d1d1db;
+  --horizontal-tabs-four-active-font-color: #25252d;
+  --horizontal-tabs-four-mouseover-font-color: #25252d;
+  --horizontal-tabs-four-item-font-color: #4d4d4d;
   --horizontal-tabs-four-item-font-size: 14px;
-  --horizontal-tabs-four-item-font-weight: 500;
+  --horizontal-tabs-four-item-font-weight: 400;
   --horizontal-tabs-four-item-font-style: capitalize;
   --input-width: 100%;
   --input-padding: 8px;
@@ -687,8 +688,6 @@
   --vertical-tabs-item-font-size: 14px;
   --vertical-tabs-item-font-weight: 500;
   --vertical-tabs-item-font-style: capitalize;
-  --vertical-tabs-content-spacing: 5px;
-  --vertical-tabs-content-border-radius: 8px;
   --vertical-tabs-content-bg-color: #f1f1f1;
   --vertical-tabs-content-left-margin: 16px;
 }
