@@ -167,6 +167,8 @@
   --col-width-10: 83.3333%;
   --col-width-11: 91.6667%;
   --col-width-12: 100%;
+  --container-border-radius: 8px;
+  --container-spacing: 5px;
   --uny-drawer-position: fixed;
   --uny-drawer-top: 0;
   --uny-drawer-right: 0;
@@ -399,6 +401,13 @@
   --page-header-general-padding: 0px 15px;
   --page-header-general-box-shadow: 2px 2px 2px 2px rgb(237, 237, 237);
   --page-header-general-border-color: #000;
+  --horizontal-tabs-active-underline-color: #002145;
+  --horizontal-tabs-active-font-color: #002145;
+  --horizontal-tabs-mouseover-bg-color: #f0f0f0;
+  --horizontal-tabs-mouseover-font-color: #6c6c6c;
+  --horizontal-tabs-item-font-size: 14px;
+  --horizontal-tabs-item-font-weight: 500;
+  --horizontal-tabs-item-font-style: capitalize;
   --horizontal-tabs-active-underline-color: #002145;
   --horizontal-tabs-active-font-color: #002145;
   --horizontal-tabs-mouseover-bg-color: #f0f0f0;
