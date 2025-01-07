@@ -414,9 +414,9 @@
   --horizontal-tabs-four-active-border-color: #d1d1db;
   --horizontal-tabs-four-active-font-color: #25252d;
   --horizontal-tabs-four-mouseover-font-color: #25252d;
-  --horizontal-tabs-four-font-color: #4d4d4d;
+  --horizontal-tabs-four-item-font-color: #4d4d4d;
   --horizontal-tabs-four-item-font-size: 14px;
-  --horizontal-tabs-four-item-font-weight: 500;
+  --horizontal-tabs-four-item-font-weight: 400;
   --horizontal-tabs-four-item-font-style: capitalize;
   --input-width: 100%;
   --input-padding: 8px;
