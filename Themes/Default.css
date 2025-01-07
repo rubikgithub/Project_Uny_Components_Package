@@ -408,6 +408,8 @@
   --horizontal-tabs-item-font-size: 14px;
   --horizontal-tabs-item-font-weight: 500;
   --horizontal-tabs-item-font-style: capitalize;
+  --horizontal-tabs-four-bg-color: #ffffff;
+  --horizontal-tabs-four-height: 40px;
   --horizontal-tabs-four-active-underline-color: #002145;
   --horizontal-tabs-four-active-font-color: #002145;
   --horizontal-tabs-four-mouseover-bg-color: #f0f0f0;
