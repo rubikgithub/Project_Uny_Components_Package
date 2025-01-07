@@ -45,7 +45,7 @@
   --page-font-size: 13px;
   --page-font-color: #212325;
   --page-font-weight: 400;
-  --page-padding: 15px;
+  --page-padding: 10px;
   --page-hover-button-bg: #f1f1f1;
   --page-hover-button-color: #f1f1f1;
   --page-hover-button-border-radius: #f1f1f1;
@@ -327,9 +327,9 @@
   --form-control-value-bg-color: #ffffff;
   --form-control-value-color: #000000;
   --form-control-border-color: #dadada;
-  --form-control-view-value-bg-color: #ffffff;
+  --form-control-view-value-bg-color: #f5f8fb;
   --form-control-view-value-color: #000000;
-  --form-control-view-border-color: #dadada;
+  --form-control-view-border-color: #ffffff00;
   --form-control-view-value-padding: 12px;
   --body-background-color: #eeeeee;
   --body-font-color: #000;
