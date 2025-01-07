@@ -167,6 +167,8 @@
   --col-width-10: 83.3333%;
   --col-width-11: 91.6667%;
   --col-width-12: 100%;
+  --container-border-radius: 8px;
+  --container-spacing: 5px;
   --uny-drawer-position: fixed;
   --uny-drawer-top: 0;
   --uny-drawer-right: 0;
@@ -406,6 +408,13 @@
   --horizontal-tabs-item-font-size: 14px;
   --horizontal-tabs-item-font-weight: 500;
   --horizontal-tabs-item-font-style: capitalize;
+  --horizontal-tabs-four-active-underline-color: #002145;
+  --horizontal-tabs-four-active-font-color: #002145;
+  --horizontal-tabs-four-mouseover-bg-color: #f0f0f0;
+  --horizontal-tabs-four-mouseover-font-color: #6c6c6c;
+  --horizontal-tabs-four-item-font-size: 14px;
+  --horizontal-tabs-four-item-font-weight: 500;
+  --horizontal-tabs-four-item-font-style: capitalize;
   --input-width: 100%;
   --input-padding: 8px;
   --input-font-size: 14px;
