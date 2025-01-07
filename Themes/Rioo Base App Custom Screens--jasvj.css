@@ -403,6 +403,9 @@
   --horizontal-tabs-active-font-color: #000000;
   --horizontal-tabs-mouseover-bg-color: #d8d6d6c9;
   --horizontal-tabs-mouseover-font-color: #000000;
+  --horizontal-tabs-item-font-size: 14px;
+  --horizontal-tabs-item-font-weight: 500;
+  --horizontal-tabs-item-font-style: capitalize;
   --input-width: 100%;
   --input-padding: 8px;
   --input-font-size: 14px;
@@ -670,7 +673,7 @@
   --vertical-tabs-active-font-color: #000000;
   --vertical-tabs-mouseover-bg-color: #ededed;
   --vertical-tabs-mouseover-font-color: #000000;
-  --vertical-tabs-item-font-size: 1px;
+  --vertical-tabs-item-font-size: 13px;
   --vertical-tabs-item-font-weight: 500;
   --vertical-tabs-item-font-style: uppercase;
   --vertical-tabs-content-spacing: 10px;
