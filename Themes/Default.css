@@ -327,9 +327,9 @@
   --form-control-value-bg-color: #ffffff;
   --form-control-value-color: #000000;
   --form-control-border-color: #dadada;
-  --form-control-view-value-bg-color: #f5f8fb;
+  --form-control-view-value-bg-color: #ffffff;
   --form-control-view-value-color: #000000;
-  --form-control-view-border-color: #ffffff00;
+  --form-control-view-border-color: #dadada;
   --form-control-view-value-padding: 12px;
   --body-background-color: #eeeeee;
   --body-font-color: #000;
@@ -403,6 +403,9 @@
   --horizontal-tabs-active-font-color: #002145;
   --horizontal-tabs-mouseover-bg-color: #f0f0f0;
   --horizontal-tabs-mouseover-font-color: #6c6c6c;
+  --horizontal-tabs-item-font-size: 14px;
+  --horizontal-tabs-item-font-weight: 500;
+  --horizontal-tabs-item-font-style: capitalize;
   --input-width: 100%;
   --input-padding: 8px;
   --input-font-size: 14px;
