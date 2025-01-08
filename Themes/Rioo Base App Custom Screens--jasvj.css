@@ -40,7 +40,7 @@
   --block-content-collapsed-opacity: 0;
   --block-content-collapsed-padding-top-bottom: 0;
   --block-content-collapsed-padding-left-right: 10px;
-  --page-background-color: #f1efed;
+  --page-background-color: #f0f0f0bf;
   --page-font-family: Lexend Deca, sans-serif;
   --page-font-size: 13px;
   --page-font-color: #34383b;
@@ -322,13 +322,13 @@
   --form-control-group-background: #f5f5f5 !important;
   --form-control-group-border: none !important;
   --form-control-group-outline: none !important;
-  --form-control-label-color: #737373;
+  --form-control-label-color: #62697c;
   --form-control-field-label: capitalize;
   --form-control-label-font-size: 13px;
-  --form-control-label-font-weight: 500;
+  --form-control-label-font-weight: 400;
   --form-control-value-bg-color: #ffffff;
-  --form-control-value-color: #000000;
-  --form-control-border-color: #dadada;
+  --form-control-value-color: #101014;
+  --form-control-border-color: #62697c;
   --form-control-view-value-bg-color: #e6e6e660;
   --form-control-view-value-color: #000000;
   --form-control-view-border-color: #e6e6e670;
@@ -688,8 +688,8 @@
   --vertical-tabs-mouseover-bg-color: #ededed;
   --vertical-tabs-mouseover-font-color: #000000;
   --vertical-tabs-item-font-size: 13px;
-  --vertical-tabs-item-font-weight: 400;
-  --vertical-tabs-item-font-style: uppercase;
+  --vertical-tabs-item-font-weight: 500;
+  --vertical-tabs-item-font-style: capitalize;
   --vertical-tabs-content-bg-color: #f1f1f1;
   --vertical-tabs-content-left-margin: 16px;
 }
