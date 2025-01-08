@@ -322,12 +322,12 @@
   --form-control-group-background: #f5f5f5 !important;
   --form-control-group-border: none !important;
   --form-control-group-outline: none !important;
-  --form-control-label-color: #737373;
+  --form-control-label-color: #62697c;
   --form-control-field-label: capitalize;
   --form-control-label-font-size: 13px;
-  --form-control-label-font-weight: 500;
+  --form-control-label-font-weight: 400;
   --form-control-value-bg-color: #ffffff;
-  --form-control-value-color: #000000;
+  --form-control-value-color: #101014;
   --form-control-border-color: #dadada;
   --form-control-view-value-bg-color: #e6e6e660;
   --form-control-view-value-color: #000000;
