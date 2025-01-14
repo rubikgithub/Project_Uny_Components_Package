@@ -291,6 +291,18 @@
   --uny-dropdown-compact-main-btn-trigger-btn-hover-background-color: #f5f5f5;
   --flex-container-display: flex;
   --flex-container-width: 100%;
+  --main-button-background-color: #1890ff;
+  --main-button-font-color: #ffffff;
+  --main-button-font-size: 16px;
+  --button-1-background-color: #f5222d;
+  --button-1-font-color: #ffffff;
+  --button-1-font-size: 16px;
+  --button-2-background-color: #faad14;
+  --button-2-font-color: #ffffff;
+  --button-2-font-size: 16px;
+  --button-3-background-color: #52c41a;
+  --button-3-font-color: #ffffff;
+  --button-3-font-size: 16px;
   --form-control-group-margin: 7px 0px;
   --form-control-group-line-height: 31px;
   --form-control-group-padding-left: 15px;
