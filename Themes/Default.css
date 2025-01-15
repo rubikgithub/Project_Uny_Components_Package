@@ -58,7 +58,7 @@
   --kpi-extra-font-size: 15px;
   --kpi-extra-font-weight: 400;
   --kpi-extra-color: #548159;
-  --kpi-extra-font-style: normal;
+  --kpi-extra-font-style: capitalize;
   --page-background-color: #f1f1f1;
   --page-font-family: Lexend Deca, sans-serif;
   --page-font-size: 13px;
