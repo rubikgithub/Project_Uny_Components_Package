@@ -423,7 +423,9 @@
   --group2-container-background-color: #ffffff;
   --group2-container-border-color: #eaecf0;
   --group2-container-border-weight: 1px;
-  --group2-container-box-shadow: none;
+  --group2-header-font-size: 15px;
+  --group2-header-font-weight: 400;
+  --group2-header-font-color: #000000;
   --page-header-general-background-color: #ffffff;
   --page-header-general-color: #4e4e4e;
   --page-header-general-font-color: #90EE90;
