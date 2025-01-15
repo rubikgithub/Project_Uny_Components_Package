@@ -58,7 +58,7 @@
   --kpi-extra-font-size: 15px;
   --kpi-extra-font-weight: 400;
   --kpi-extra-color: #548159;
-  --kpi-extra-font-style: normal;
+  --kpi-extra-font-style: capitalize;
   --page-background-color: #f1f1f1;
   --page-font-family: Lexend Deca, sans-serif;
   --page-font-size: 13px;
@@ -419,10 +419,10 @@
   --info-item-value-color: #333;
   --group-header-background-color: #f2f7ff;
   --group-header-color: rgba(0, 0, 0, 0.88);
-  --group2-container-height: 50px;
   --group2-container-background-color: #ffffff;
   --group2-container-border-color: #eaecf0;
   --group2-container-border-weight: 1px;
+  --group2-header-height: 50px;
   --group2-header-font-size: 15px;
   --group2-header-font-weight: 400;
   --group2-header-font-color: #000000;
