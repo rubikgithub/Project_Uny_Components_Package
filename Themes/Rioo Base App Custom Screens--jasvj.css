@@ -59,7 +59,7 @@
   --kpi-extra-font-weight: 400;
   --kpi-extra-color: #548159;
   --kpi-extra-font-style: capitalize;
-  --page-background-color: #f5f0f0;
+  --page-background-color: #f3f5f9a0;
   --page-font-family: Lexend Deca, sans-serif;
   --page-font-size: 13px;
   --page-font-color: #24314b;
@@ -728,5 +728,5 @@
   --vertical-tabs-item-font-weight: 500;
   --vertical-tabs-item-font-style: uppercase;
   --vertical-tabs-content-bg-color: #fbfbff;
-  --vertical-tabs-content-left-margin: 8px;
+  --vertical-tabs-content-left-margin: 10px;
 }
