@@ -59,10 +59,10 @@
   --kpi-extra-font-weight: 400;
   --kpi-extra-color: #548159;
   --kpi-extra-font-style: capitalize;
-  --page-background-color: #f0f0f0bf;
+  --page-background-color: #fbfbff;
   --page-font-family: Lexend Deca, sans-serif;
   --page-font-size: 13px;
-  --page-font-color: #34383b;
+  --page-font-color: #24314b;
   --page-font-weight: 400;
   --page-padding: 10px;
   --page-hover-button-bg: #f1f1f1;
@@ -419,8 +419,8 @@
   --info-item-value-border-radius: 4px;
   --info-item-value-font-size: 14px;
   --info-item-value-color: #333;
-  --group-header-background-color: #dfdfdf8e;
-  --group-header-color: rgba(0, 0, 0, 0.88);
+  --group-header-background-color: #d6dfe4;
+  --group-header-color: rgb(0, 0, 0);
   --group2-container-background-color: #ffffff;
   --group2-container-border-color: #eaecf0;
   --group2-container-border-weight: 1px;
@@ -718,7 +718,7 @@
   --uny-tooltip-placement-left-uny-tooltip-arrow-border-width: 6px 0 6px 6px;
   --uny-tooltip-placement-right-uny-tooltip-arrow-left: -6px;
   --uny-tooltip-placement-right-uny-tooltip-arrow-border-width: 6px 6px 6px 0;
-  --vertical-tabs-bg-color: #ffffff;
+  --vertical-tabs-bg-color: #fbfbff;
   --vertical-tabs-border-color: transparent;
   --vertical-tabs-active-bg-color: #245278;
   --vertical-tabs-active-font-color: #ffffff;
@@ -727,6 +727,6 @@
   --vertical-tabs-item-font-size: 12px;
   --vertical-tabs-item-font-weight: 500;
   --vertical-tabs-item-font-style: uppercase;
-  --vertical-tabs-content-bg-color: #f1f1f1;
+  --vertical-tabs-content-bg-color: #fbfbff;
   --vertical-tabs-content-left-margin: 16px;
 }
