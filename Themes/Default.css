@@ -188,6 +188,8 @@
   --col-width-12: 100%;
   --container-border-radius: 8px;
   --container-spacing: 5px;
+  --container-info-spacing: 5px;
+  --container-vertical-tab-spacing: 5px;
   --uny-drawer-position: fixed;
   --uny-drawer-top: 0;
   --uny-drawer-right: 0;
