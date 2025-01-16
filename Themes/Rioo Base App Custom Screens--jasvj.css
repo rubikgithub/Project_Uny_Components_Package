@@ -59,7 +59,7 @@
   --kpi-extra-font-weight: 400;
   --kpi-extra-color: #548159;
   --kpi-extra-font-style: capitalize;
-  --page-background-color: #efeff3;
+  --page-background-color: #ffffff;
   --page-font-family: Lexend Deca, sans-serif;
   --page-font-size: 13px;
   --page-font-color: #24314b;
@@ -357,10 +357,10 @@
   --form-control-label-font-weight: 500;
   --form-control-value-bg-color: #ffffff;
   --form-control-value-color: #555555;
-  --form-control-border-color: #62697c;
-  --form-control-view-value-bg-color: #f7f7f7;
+  --form-control-border-color: #fbfbff;
+  --form-control-view-value-bg-color: #fbfbff;
   --form-control-view-value-color: #555555;
-  --form-control-view-border-color: #e6e6e670;
+  --form-control-view-border-color: #fbfbff;
   --form-control-view-value-padding: 12px;
   --body-background-color: #eeeeee;
   --body-font-color: #000;
@@ -421,7 +421,7 @@
   --info-item-value-color: #333;
   --group-header-background-color: #e9eef3;
   --group-header-color: #11446f;
-  --group2-container-background-color: #fbfbff;
+  --group2-container-background-color: #ffffff;
   --group2-container-border-color: #fbfbff;
   --group2-container-border-weight: 1px;
   --group2-header-height: 40px;
