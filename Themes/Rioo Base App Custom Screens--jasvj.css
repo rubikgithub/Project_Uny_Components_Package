@@ -361,7 +361,7 @@
   --form-control-view-value-bg-color: #fbfbff;
   --form-control-view-value-color: #555555;
   --form-control-view-border-color: #fbfbff;
-  --form-control-view-value-padding: 12px;
+  --form-control-view-value-padding: 0px;
   --body-background-color: #eeeeee;
   --body-font-color: #000;
   --body-font-size: 12px;
@@ -422,7 +422,7 @@
   --group-header-background-color: #e9eef3;
   --group-header-color: #11446f;
   --group2-container-background-color: #ffffff;
-  --group2-container-border-color: #fbfbff;
+  --group2-container-border-color: N/A;
   --group2-container-border-weight: 1px;
   --group2-header-height: 40px;
   --group2-header-font-size: 12px;
