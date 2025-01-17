@@ -428,8 +428,6 @@
   --group2-header-font-size: 15px;
   --group2-header-font-weight: 400;
   --group2-header-font-color: #000000;
-  --group2-header-background-color: #ffffff;
-  --group2-header-font-style: capitalize;
   --group2-indicator-font-size: 10px;
   --page-header-general-background-color: #ffffff;
   --page-header-general-color: #4e4e4e;
@@ -447,7 +445,6 @@
   --horizontal-tabs-item-font-size: 14px;
   --horizontal-tabs-item-font-weight: 500;
   --horizontal-tabs-item-font-style: capitalize;
-  --horizontal-tabs-item-font-color: #6c6c6c;
   --horizontal-tabs-four-bg-color: #f7f7f8;
   --horizontal-tabs-four-height: 30px;
   --horizontal-tabs-four-active-bg-color: #ffffff;
@@ -730,7 +727,6 @@
   --vertical-tabs-item-font-size: 14px;
   --vertical-tabs-item-font-weight: 500;
   --vertical-tabs-item-font-style: capitalize;
-  --vertical-tabs-item-font-color: #000000;
   --vertical-tabs-content-bg-color: #f1f1f1;
   --vertical-tabs-content-left-margin: 16px;
 }
