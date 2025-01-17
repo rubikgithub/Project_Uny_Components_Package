@@ -453,9 +453,9 @@
   --horizontal-tabs-active-font-color: #245278;
   --horizontal-tabs-mouseover-bg-color: #e9eef3;
   --horizontal-tabs-mouseover-font-color: #245278;
-  --horizontal-tabs-item-font-size: 12px;
+  --horizontal-tabs-item-font-size: 13px;
   --horizontal-tabs-item-font-weight: 500;
-  --horizontal-tabs-item-font-style: uppercase;
+  --horizontal-tabs-item-font-style: capitalize;
   --horizontal-tabs-item-font-color: #245278;
   --horizontal-tabs-four-bg-color: #f7f7f8;
   --horizontal-tabs-four-height: 30px;
