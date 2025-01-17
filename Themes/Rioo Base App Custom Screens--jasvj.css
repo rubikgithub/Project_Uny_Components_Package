@@ -59,7 +59,7 @@
   --kpi-extra-font-weight: 400;
   --kpi-extra-color: #548159;
   --kpi-extra-font-style: capitalize;
-  --page-background-color: #f3f5f9a0;
+  --page-background-color: #f3f5f97c;
   --page-font-family: Lexend Deca, sans-serif;
   --page-font-size: 13px;
   --page-font-color: #24314b;
@@ -163,10 +163,10 @@
   --button-primary-hover-color: #ffffff;
   --button-primary-hover-background-color: #253563;
   --button-primary-hover-border-color: #253563;
-  --button-primary-background-color: #00135d;
+  --button-primary-background-color: #24314b;
   --button-primary-color: #ffffff;
-  --button-secondary-border-color: #aca2a2;
-  --button-secondary-font-color: #525252;
+  --button-secondary-border-color: #24314b;
+  --button-secondary-font-color: #24314b;
   --button-danger-background-color: #ff4d4f;
   --button-danger-font-color: #ffffff;
   --checkbox-display: flex;
@@ -435,7 +435,7 @@
   --group3-header-font-size: 15px;
   --group3-header-font-weight: 400;
   --group3-header-font-color: #24314b;
-  --group3-header-background-color: #ffffff;
+  --group3-header-background-color: #f3f6f896;
   --group3-header-font-style: capitalize;
   --group3-indicator-font-size: 10px;
   --group3-border-color: #d6dfe4;
