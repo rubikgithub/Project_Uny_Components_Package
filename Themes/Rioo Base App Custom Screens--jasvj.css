@@ -163,10 +163,10 @@
   --button-primary-hover-color: #ffffff;
   --button-primary-hover-background-color: #253563;
   --button-primary-hover-border-color: #253563;
-  --button-primary-background-color: #00135d;
+  --button-primary-background-color: #24314b;
   --button-primary-color: #ffffff;
-  --button-secondary-border-color: #aca2a2;
-  --button-secondary-font-color: #525252;
+  --button-secondary-border-color: #24314b;
+  --button-secondary-font-color: #24314b;
   --button-danger-background-color: #ff4d4f;
   --button-danger-font-color: #ffffff;
   --checkbox-display: flex;
