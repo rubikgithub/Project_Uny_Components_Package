@@ -432,8 +432,8 @@
   --group2-header-font-style: uppercase;
   --group2-indicator-font-size: 10px;
   --group3-header-height: 40px;
-  --group3-header-font-size: 15px;
-  --group3-header-font-weight: 400;
+  --group3-header-font-size: 13px;
+  --group3-header-font-weight: 600;
   --group3-header-font-color: #24314b;
   --group3-header-background-color: #f3f6f896;
   --group3-header-font-style: capitalize;
@@ -454,7 +454,7 @@
   --horizontal-tabs-mouseover-bg-color: #e9eef3;
   --horizontal-tabs-mouseover-font-color: #245278;
   --horizontal-tabs-item-font-size: 13px;
-  --horizontal-tabs-item-font-weight: 500;
+  --horizontal-tabs-item-font-weight: 600;
   --horizontal-tabs-item-font-style: capitalize;
   --horizontal-tabs-item-font-color: #245278;
   --horizontal-tabs-four-bg-color: #f7f7f8;
