@@ -358,8 +358,8 @@
   --form-control-value-bg-color: #ffffff;
   --form-control-value-color: #555555;
   --form-control-border-color: #fbfbff;
-  --form-control-view-value-bg-color: #fbfbff;
-  --form-control-view-value-color: #555555;
+  --form-control-view-value-bg-color: #f4f4fe70;
+  --form-control-view-value-color: #2a2a2a;
   --form-control-view-border-color: #fbfbff;
   --form-control-view-value-padding: 0px;
   --body-background-color: #eeeeee;
