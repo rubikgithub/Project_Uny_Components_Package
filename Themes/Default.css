@@ -534,6 +534,14 @@
   --groups-font-weight: 400;
   --groups-font-color: #000000;
   --groups-background-color: #cef1fd;
+  --vertical_fields-font-size: 15px;
+  --vertical_fields-font-weight: 400;
+  --vertical_fields-font-color: #000000;
+  --vertical_fields-background-color: #cef1fd;
+  --cell-font-size: 15px;
+  --cell-font-weight: 400;
+  --cell-font-color: #000000;
+  --cell-background-color: #ffffff;
   --page-modal-header-bg: #ffffff;
   --page-modal-header-color: #212325;
   --page-modal-footer-bg: #ffffff;
