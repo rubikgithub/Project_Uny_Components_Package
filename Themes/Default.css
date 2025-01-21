@@ -539,7 +539,7 @@
   --groups-font-color: #000000;
   --groups-background-color: #cef1fd;
   --groups-line-height: 1.5;
-  --groups-alignment: left;
+  --groups-alignment: left,right,center;
   --vertical-fields-font-size: 15px;
   --vertical-fields-font-weight: 400;
   --vertical-fields-font-color: #000000;
