@@ -532,12 +532,12 @@
   --applicants-font-weight: 400;
   --applicants-font-color: #000000;
   --applicants-background-color: #cef1fd;
-  --applicants-background-color: 1.5;
+  --applicants-line-height: 1.5;
   --groups-font-size: 13px;
   --groups-font-weight: 400;
   --groups-font-color: #000000;
   --groups-background-color: #cef1fd;
-  --groups-background-color: 1.5;
+  --groups-line-height: 1.5;
   --vertical-fields-font-size: 15px;
   --vertical-fields-font-weight: 400;
   --vertical-fields-font-color: #000000;
@@ -547,6 +547,7 @@
   --cell-font-color: #000000;
   --cell-background-color: #EFB8D1;
   --cell-background-color: 1.5;
+  --cell-line-height: 1;
   --page-modal-header-bg: #ffffff;
   --page-modal-header-color: #212325;
   --page-modal-footer-bg: #ffffff;
