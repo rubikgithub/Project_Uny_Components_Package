@@ -233,6 +233,11 @@
   --page-drawer-header-color: #212325;
   --page-drawer-footer-bg: #ffffff;
   --page-drawer-footer-color: #212325;
+  --page-drawer-height: 40px;
+  --page-drawer-font-size: 15px;
+  --page-drawer-font-weight: 400;
+  --page-drawer-font-color: #000000;
+  --page-drawer-font-style: capitalize;
   --uny-dropdown-position: relative;
   --uny-dropdown-display: inline-block;
   --uny-dropdown-trigger-cursor: pointer;
