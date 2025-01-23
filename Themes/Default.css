@@ -303,12 +303,11 @@
   --flex-container-width: 100%;
   --main-button-background-color: #ff4d4f;
   --main-button-font-color: white;
-  --rectangle-button-background-color: #10172b;
-  --rectangle-button-font-color: white;
-  --rectangle-button-corner-radius: 5px;
-  --pill-button-background-color: #10172b;
-  --pill-button-font-color: white;
-  --pill-button-corner-radius: 35px;
+  --side-button-background-color: #10172b;
+  --side-button-font-color: white;
+  --common-height: 40px;
+  --common-width: 40px;
+  --common-corner-radius: 35px;
   --form-control-group-margin: 7px 0px;
   --form-control-group-line-height: 31px;
   --form-control-group-padding-left: 15px;
