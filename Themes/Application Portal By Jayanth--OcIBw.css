@@ -605,10 +605,10 @@
   --navbar-item-font-weight: 5px;
   --navbar-hover-font-color: #212325;
   --navbar-settings-active-style: background;
-  --navbar-settings-active-style-color: #ffffff;
+  --navbar-settings-active-style-color: #2b2065;
   --navbar-active-font-weight: #212325;
-  --navbar-active-font-color: #212325;
-  --navbar-sub-settings-background-color: #eaeaea;
+  --navbar-active-font-color: #ffffff;
+  --navbar-sub-settings-background-color: #f8f1e4;
   --navbar-sub-settings-font-color: #212325;
   --navbar-sub-settings-height: 30px;
   --navbar-sub-settings-margin: 5px;
