@@ -598,7 +598,7 @@
   --navbar-footer-background-color: #f8f1e4;
   --navbar-settings-font-color: #212325;
   --navbar-settings-font-weight: 400;
-  --navbar-settings-height: 30px;
+  --navbar-settings-height: 40px;
   --navbar-settings-margin: 5px;
   --navbar-settings-hover-style: background;
   --navbar-settings-hover-style-color: #ffffff;
@@ -610,7 +610,7 @@
   --navbar-active-font-color: #ffffff;
   --navbar-sub-settings-background-color: #f8f1e4;
   --navbar-sub-settings-font-color: #212325;
-  --navbar-sub-settings-height: 30px;
+  --navbar-sub-settings-height: 40px;
   --navbar-sub-settings-margin: 5px;
   --navbar-sub-settings-hover-style: background;
   --navbar-sub-settings-hover-style-color: #ffffff;
