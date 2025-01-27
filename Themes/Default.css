@@ -545,11 +545,13 @@
   --groups-background-color: #cef1fd;
   --groups-line-height: 1.5;
   --groups-alignment: center;
+  --groups-width: 700px;
   --vertical-fields-font-size: 15px;
   --vertical-fields-font-weight: 400;
   --vertical-fields-font-color: #000000;
   --vertical-fields-background-color: #A5ECBF;
   --vertical-fields-alignment: left;
+  --vertical-fields-width: 150px;
   --cell-font-size: 15px;
   --cell-font-weight: 400;
   --cell-font-color: #000000;
