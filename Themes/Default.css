@@ -308,7 +308,6 @@
   --common-height: 40px;
   --common-width: 70px;
   --common-corner-radius: 35px;
-  --common-font-size: 18px;
   --form-control-group-margin: 7px 0px;
   --form-control-group-line-height: 31px;
   --form-control-group-padding-left: 15px;
@@ -545,6 +544,7 @@
   --groups-background-color: #cef1fd;
   --groups-line-height: 1.5;
   --groups-alignment: center;
+  --groups-default-width: auto;
   --groups-width: 700px;
   --vertical-fields-font-size: 15px;
   --vertical-fields-font-weight: 400;
