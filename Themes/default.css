@@ -544,6 +544,7 @@
   --groups-background-color: #cef1fd;
   --groups-line-height: 1.5;
   --groups-alignment: center;
+  --groups-default-width: auto;
   --groups-width: 700px;
   --vertical-fields-font-size: 15px;
   --vertical-fields-font-weight: 400;
