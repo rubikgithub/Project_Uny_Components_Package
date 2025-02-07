@@ -1,11 +1,11 @@
 :root {
   --banner-alert-container-height: 90px;
-  --banner-alert-container-width: 90px;
-  --banner-alert-container-title-font-size: #ffffff;
-  --banner-alert-container-title-font-weight: #f2f2f5;
-  --banner-alert-container-content-font-size: #ffffff;
-  --banner-alert-container-content-font-weight: #f2f2f5;
-  --banner-alert-container-corner-radius: #f2f2f5;
+  --banner-alert-container-width: 560px;
+  --banner-alert-container-title-font-size: 20px;
+  --banner-alert-container-title-font-weight: normal;
+  --banner-alert-container-content-font-size: 16px;
+  --banner-alert-container-content-font-weight: normal;
+  --banner-alert-container-corner-radius: 8px;
   --success-background-color: #b6f8c4;
   --success-title-color: #000;
   --success-content-color: #000;
