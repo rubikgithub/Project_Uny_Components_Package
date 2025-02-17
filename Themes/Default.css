@@ -347,6 +347,8 @@
   --dynamic-action-tabs-font-color: #242424;
   --dynamic-action-tabs-font-weight: 400;
   --dynamic-action-container-bg-color: #0000000d;
+  --dynamic-action-container-border-weight: 1px;
+  --dynamic-action-container-border-color: #0000001a;
   --dynamic-action-container-title-font-size: 16px;
   --dynamic-action-container-title-font-color: #3a3431;
   --dynamic-action-container-title-font-weight: normal;
