@@ -100,7 +100,7 @@
   --kpi-extra-font-weight: 400;
   --kpi-extra-color: #548159;
   --kpi-extra-font-style: capitalize;
-  --page-background-color: #e8eaed;
+  --page-background-color: #fffbf589;
   --page-font-family: Lexend Deca, sans-serif;
   --page-font-size: 13px;
   --page-font-color: #24314b;
@@ -430,7 +430,7 @@
   --form-control-value-bg-color: #ffffff;
   --form-control-value-color: #555555;
   --form-control-border-color: #fbfbff;
-  --form-control-view-value-bg-color: #f2f0fe87;
+  --form-control-view-value-bg-color: #f2f0fe60;
   --form-control-view-value-color: #2a2a2a;
   --form-control-view-border-color: #ffffff;
   --form-control-view-value-padding: 0px;
@@ -512,7 +512,7 @@
   --group3-border-color: #d9d9d9;
   --group3-border-weight: 1px;
   --page-header-general-background-color: #ffffff;
-  --page-header-general-color: #24314b;
+  --page-header-general-color: #2b2065;
   --page-header-general-font-color: #90EE90;
   --page-header-general-font-size: 17px;
   --page-header-general-font-weight: 400;
@@ -839,7 +839,7 @@
   --vertical-tabs-border-color: transparent;
   --vertical-tabs-active-bg-color: #2b2065;
   --vertical-tabs-active-font-color: #ffffff;
-  --vertical-tabs-mouseover-bg-color: #f2f0fe;
+  --vertical-tabs-mouseover-bg-color: #f8f1e4bc;
   --vertical-tabs-mouseover-font-color: #2b2065;
   --vertical-tabs-item-font-size: 12px;
   --vertical-tabs-item-font-weight: 500;
