@@ -231,8 +231,8 @@
   --container-spacing: 5px;
   --container-info-spacing: 15px;
   --container-vertical-tab-spacing: 5px;
-  --container-vertical-tab-top-spacing: 5px;
-  --container-vertical-tab-bottom-spacing: 5px;
+  --container-vertical-tab-top-spacing: 0px;
+  --container-vertical-tab-bottom-spacing: 0px;
   --container-vertical-tab-left-spacing: 5px;
   --container-vertical-tab-right-spacing: 5px;
   --uny-drawer-position: fixed;
