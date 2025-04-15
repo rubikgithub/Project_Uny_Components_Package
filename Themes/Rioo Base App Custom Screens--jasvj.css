@@ -105,7 +105,7 @@
   --page-font-size: 13px;
   --page-font-color: #24314b;
   --page-font-weight: 400;
-  --page-padding: 15px;
+  --page-padding: 10px;
   --page-hover-button-bg: #f1f1f1;
   --page-hover-button-color: #f1f1f1;
   --page-hover-button-border-radius: #f1f1f1;
@@ -228,7 +228,7 @@
   --col-width-11: 91.6667%;
   --col-width-12: 100%;
   --container-border-radius: 8px;
-  --container-spacing: 5px;
+  --container-spacing: 10px;
   --container-info-spacing: 5px;
   --container-vertical-tab-spacing: 5px;
   --uny-drawer-position: fixed;
