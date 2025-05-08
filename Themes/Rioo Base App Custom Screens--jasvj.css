@@ -231,6 +231,10 @@
   --container-spacing: 10px;
   --container-info-spacing: 5px;
   --container-vertical-tab-spacing: 5px;
+  --container-vertical-tab-top-spacing: 0px;
+  --container-vertical-tab-bottom-spacing: 0px;
+  --container-vertical-tab-left-spacing: 10px;
+  --container-vertical-tab-right-spacing: 10px;
   --uny-drawer-position: fixed;
   --uny-drawer-top: 0;
   --uny-drawer-right: 0;
@@ -430,7 +434,7 @@
   --form-control-value-bg-color: #ffffff;
   --form-control-value-color: #555555;
   --form-control-border-color: #fbfbff;
-  --form-control-view-value-bg-color: #f2f0fe60;
+  --form-control-view-value-bg-color: #f0f0f047;
   --form-control-view-value-color: #2a2a2a;
   --form-control-view-border-color: #ffffff;
   --form-control-view-value-padding: 0px;
