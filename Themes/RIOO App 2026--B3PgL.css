@@ -100,15 +100,15 @@
   --kpi-extra-font-weight: 400;
   --kpi-extra-color: #548159;
   --kpi-extra-font-style: capitalize;
-  --page-background-color: #f1f1f1;
+  --page-background-color: #e6f4ff;
   --page-font-family: Lexend Deca, sans-serif;
-  --page-font-size: 13px;
-  --page-font-color: #212325;
-  --page-font-weight: 400;
-  --page-padding: 15px;
+  --page-font-size: 15px;
+  --page-font-color: #0c1116;
+  --page-font-weight: 500;
+  --page-padding: 18px;
   --page-hover-button-bg: #f1f1f1;
   --page-hover-button-color: #f1f1f1;
-  --page-hover-button-border-radius: 2px;
+  --page-hover-button-border-radius: 10px;
   --uny-btn-display: inline-flex;
   --uny-btn-align-items: center;
   --uny-btn-justify-content: center;
@@ -276,7 +276,7 @@
   --uny-drawer-overlay-bottom: 0;
   --page-drawer-header-bg: #ffffff;
   --page-drawer-header-color: #212325;
-  --page-drawer-header-height: 42px;
+  --page-drawer-header-height: 40px;
   --page-drawer-header-font-size: 15px;
   --page-drawer-header-font-weight: 500;
   --page-drawer-header-font-style: capitalize;
@@ -429,7 +429,7 @@
   --form-control-group-outline: none !important;
   --form-control-label-color: #6c6c6c;
   --form-control-field-label: capitalize;
-  --form-control-label-font-size: 13px;
+  --form-control-label-font-size: 12px;
   --form-control-label-font-weight: 350;
   --form-control-value-bg-color: #ffffff;
   --form-control-value-color: #000000;
@@ -526,7 +526,7 @@
   --group3-border-color: #d9d9d9;
   --group3-border-weight: 1px;
   --page-header-general-background-color: #ffffff;
-  --page-header-general-color: #4e4e4e;
+  --page-header-general-color: #191212;
   --page-header-general-font-color: #90EE90;
   --page-header-general-font-size: 17px;
   --page-header-general-font-weight: 400;
@@ -538,7 +538,7 @@
   --horizontal-tabs-active-font-color: #002145;
   --horizontal-tabs-mouseover-bg-color: #f0f0f0;
   --horizontal-tabs-mouseover-font-color: #6c6c6c;
-  --horizontal-tabs-item-font-size: 14px;
+  --horizontal-tabs-item-font-size: 15px;
   --horizontal-tabs-item-font-weight: 500;
   --horizontal-tabs-item-font-style: capitalize;
   --horizontal-tabs-item-font-color: #6c6c6c;
@@ -638,13 +638,13 @@
   --cell-line-height: 1;
   --cell-alignment: left;
   --page-modal-header-bg: #ffffff;
-  --page-modal-header-color: #212325;
-  --page-modal-header-height: 37px;
+  --page-modal-header-color: #101011;
+  --page-modal-header-height: 35px;
   --page-modal-header-font-size: 15px;
   --page-modal-header-font-weight: 500;
   --page-modal-header-font-style: capitalize;
   --page-modal-footer-bg: #ffffff;
-  --page-modal-footer-color: #212325;
+  --page-modal-footer-color: #101112;
   --page-modal-footer-height: 55px;
   --page-modal-footer-font-size: 15px;
   --page-modal-footer-font-weight: 500;
@@ -855,10 +855,10 @@
   --vertical-tabs-active-font-color: #ffffff;
   --vertical-tabs-mouseover-bg-color: #f0f0f0;
   --vertical-tabs-mouseover-font-color: #000000;
-  --vertical-tabs-item-font-size: 14px;
+  --vertical-tabs-item-font-size: 15px;
   --vertical-tabs-item-font-weight: 500;
   --vertical-tabs-item-font-style: capitalize;
   --vertical-tabs-item-font-color: #000000;
   --vertical-tabs-content-bg-color: #f1f1f1;
-  --vertical-tabs-content-left-margin: 16px;
+  --vertical-tabs-content-left-margin: 15px;
 }
