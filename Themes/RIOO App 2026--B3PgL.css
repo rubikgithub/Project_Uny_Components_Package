@@ -534,14 +534,14 @@
   --page-header-general-padding: 0px 15px;
   --page-header-general-box-shadow: 2px 2px 2px 2px rgb(237, 237, 237);
   --page-header-general-border-color: #000;
-  --horizontal-tabs-active-underline-color: #002145;
-  --horizontal-tabs-active-font-color: #002145;
+  --horizontal-tabs-active-underline-color: #0a57a9;
+  --horizontal-tabs-active-font-color: #0b549e;
   --horizontal-tabs-mouseover-bg-color: #f0f0f0;
   --horizontal-tabs-mouseover-font-color: #6c6c6c;
   --horizontal-tabs-item-font-size: 15px;
-  --horizontal-tabs-item-font-weight: 500;
+  --horizontal-tabs-item-font-weight: 800;
   --horizontal-tabs-item-font-style: capitalize;
-  --horizontal-tabs-item-font-color: #6c6c6c;
+  --horizontal-tabs-item-font-color: #a9a9a9;
   --horizontal-tabs-four-bg-color: #f7f7f8;
   --horizontal-tabs-four-height: 30px;
   --horizontal-tabs-four-active-bg-color: #ffffff;
