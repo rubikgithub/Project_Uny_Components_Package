@@ -639,13 +639,13 @@
   --cell-alignment: left;
   --page-modal-header-bg: #ffffff;
   --page-modal-header-color: #101011;
-  --page-modal-header-height: 35px;
+  --page-modal-header-height: 45px;
   --page-modal-header-font-size: 15px;
   --page-modal-header-font-weight: 500;
   --page-modal-header-font-style: capitalize;
   --page-modal-footer-bg: #ffffff;
   --page-modal-footer-color: #101112;
-  --page-modal-footer-height: 55px;
+  --page-modal-footer-height: 65px;
   --page-modal-footer-font-size: 15px;
   --page-modal-footer-font-weight: 500;
   --page-modal-footer-font-style: capitalize;
