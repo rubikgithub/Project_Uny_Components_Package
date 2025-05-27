@@ -498,11 +498,11 @@
   --group-header-background-color: #f2f7ff;
   --group-header-color: rgba(0, 0, 0, 0.88);
   --group2-container-background-color: #ffffff;
-  --group2-container-border-color: #eaecf0;
-  --group2-container-border-weight: 1px;
+  --group2-container-border-color: #d3d3d3;
+  --group2-container-border-weight: 2px;
   --group2-header-height: 40px;
   --group2-header-font-size: 15px;
-  --group2-header-font-weight: 400;
+  --group2-header-font-weight: 800;
   --group2-header-font-color: #000000;
   --group2-header-background-color: #ffffff;
   --group2-header-font-style: capitalize;
