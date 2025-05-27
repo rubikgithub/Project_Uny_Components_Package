@@ -427,13 +427,13 @@
   --form-control-group-background: #f5f5f5 !important;
   --form-control-group-border: none !important;
   --form-control-group-outline: none !important;
-  --form-control-label-color: #6c6c6c;
+  --form-control-label-color: #8f8989;
   --form-control-field-label: capitalize;
-  --form-control-label-font-size: 12px;
+  --form-control-label-font-size: 14px;
   --form-control-label-font-weight: 350;
   --form-control-value-bg-color: #ffffff;
   --form-control-value-color: #000000;
-  --form-control-border-color: #dadada;
+  --form-control-border-color: #e5e5e5;
   --form-control-view-value-bg-color: #f5f8fb;
   --form-control-view-value-color: #000000;
   --form-control-view-border-color: #ffffff00;
