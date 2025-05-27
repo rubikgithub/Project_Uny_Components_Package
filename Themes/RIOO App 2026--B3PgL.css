@@ -276,13 +276,13 @@
   --uny-drawer-overlay-bottom: 0;
   --page-drawer-header-bg: #ffffff;
   --page-drawer-header-color: #212325;
-  --page-drawer-header-height: 40px;
+  --page-drawer-header-height: 50px;
   --page-drawer-header-font-size: 15px;
   --page-drawer-header-font-weight: 500;
   --page-drawer-header-font-style: capitalize;
   --page-drawer-footer-bg: #ffffff;
   --page-drawer-footer-color: #212325;
-  --page-drawer-footer-height: 55px;
+  --page-drawer-footer-height: 60px;
   --page-drawer-footer-font-size: 15px;
   --page-drawer-footer-font-weight: 400;
   --page-drawer-footer-font-style: capitalize;
