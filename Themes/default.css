@@ -108,7 +108,7 @@
   --page-padding: 15px;
   --page-hover-button-bg: #f1f1f1;
   --page-hover-button-color: #f1f1f1;
-  --page-hover-button-border-radius: #f1f1f1;
+  --page-hover-button-border-radius: 2px;
   --uny-btn-display: inline-flex;
   --uny-btn-align-items: center;
   --uny-btn-justify-content: center;
@@ -497,6 +497,16 @@
   --info-item-value-color: #333;
   --group-header-background-color: #f2f7ff;
   --group-header-color: rgba(0, 0, 0, 0.88);
+  --group2-container-background-color: #ffffff;
+  --group2-container-border-color: #eaecf0;
+  --group2-container-border-weight: 1px;
+  --group2-header-height: 40px;
+  --group2-header-font-size: 15px;
+  --group2-header-font-weight: 400;
+  --group2-header-font-color: #000000;
+  --group2-header-background-color: #ffffff;
+  --group2-header-font-style: capitalize;
+  --group2-indicator-font-size: 10px;
   --group2-container-background-color: #ffffff;
   --group2-container-border-color: #eaecf0;
   --group2-container-border-weight: 1px;
