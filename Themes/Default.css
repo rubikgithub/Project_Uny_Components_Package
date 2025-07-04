@@ -734,9 +734,6 @@
   --pprofile-thumbnail-border-radius: 50%;
   --row-display: flex;
   --row-flex-wrap: wrap;
-  --summary-styles-style1-user-info-title-font-size: 16px;
-  --summary-styles-style1-user-info-title-font-weight: 500;
-  --summary-styles-style1-user-info-title-font-color: #000;
   --summary-styles-style1-user-info-indicators-font-size: 12px;
   --summary-styles-style1-user-info-indicators-font-weight: normal;
   --summary-styles-style1-user-info-indicators-font-color: rgba(0, 0, 0, 0.7);
