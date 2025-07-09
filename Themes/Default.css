@@ -727,6 +727,10 @@
   --summary-styles-style10-user-info-extra-content-font-size: 12px;
   --summary-styles-style10-user-info-extra-content-font-weight: normal;
   --summary-styles-style10-user-info-extra-content-font-color: #000;
+  --summary-styles-style10-card-kpi-box-background-color: #fff;
+  --summary-styles-style10-card-kpi-box-border-radius: 8px;
+  --summary-styles-style10-card-kpi-box-border-width: 1px;
+  --summary-styles-style10-card-kpi-box-border-color: #EAEAEA;
   --summary-styles-style2-user-info-title-font-size: 16px;
   --summary-styles-style2-user-info-title-font-weight: 500;
   --summary-styles-style2-user-info-title-font-color: #000;
@@ -783,6 +787,10 @@
   --summary-styles-style5-user-info-extra-content-font-size: 12px;
   --summary-styles-style5-user-info-extra-content-font-weight: normal;
   --summary-styles-style5-user-info-extra-content-font-color: #000;
+  --summary-styles-style5-card-kpi-box-background-color: #fff;
+  --summary-styles-style5-card-kpi-box-border-radius: 8px;
+  --summary-styles-style5-card-kpi-box-border-width: 1px;
+  --summary-styles-style5-card-kpi-box-border-color: #EAEAEA;
   --summary-styles-style6-user-info-title-font-size: 16px;
   --summary-styles-style6-user-info-title-font-weight: 500;
   --summary-styles-style6-user-info-title-font-color: #000;
@@ -794,6 +802,10 @@
   --summary-styles-style6-user-info-extra-content-font-size: 12px;
   --summary-styles-style6-user-info-extra-content-font-weight: normal;
   --summary-styles-style6-user-info-extra-content-font-color: #000;
+  --summary-styles-style6-card-kpi-box-background-color: #fff;
+  --summary-styles-style6-card-kpi-box-border-radius: 8px;
+  --summary-styles-style6-card-kpi-box-border-width: 1px;
+  --summary-styles-style6-card-kpi-box-border-color: #EAEAEA;
   --summary-styles-style7-user-info-title-font-size: 16px;
   --summary-styles-style7-user-info-title-font-weight: 500;
   --summary-styles-style7-user-info-title-font-color: #000;
@@ -805,6 +817,10 @@
   --summary-styles-style7-user-info-extra-content-font-size: 12px;
   --summary-styles-style7-user-info-extra-content-font-weight: normal;
   --summary-styles-style7-user-info-extra-content-font-color: #000;
+  --summary-styles-style7-card-kpi-box-background-color: #fff;
+  --summary-styles-style7-card-kpi-box-border-radius: 8px;
+  --summary-styles-style7-card-kpi-box-border-width: 1px;
+  --summary-styles-style7-card-kpi-box-border-color: #EAEAEA;
   --summary-styles-style8-user-info-title-font-size: 16px;
   --summary-styles-style8-user-info-title-font-weight: 500;
   --summary-styles-style8-user-info-title-font-color: #000;
@@ -831,6 +847,10 @@
   --summary-styles-style9-user-info-extra-content-font-size: 12px;
   --summary-styles-style9-user-info-extra-content-font-weight: normal;
   --summary-styles-style9-user-info-extra-content-font-color: #000;
+  --summary-styles-style9-card-kpi-box-background-color: #fff;
+  --summary-styles-style9-card-kpi-box-border-radius: 8px;
+  --summary-styles-style9-card-kpi-box-border-width: 1px;
+  --summary-styles-style9-card-kpi-box-border-color: #EAEAEA;
   --switch-container-display: inline-block;
   --switch-container-background-color: #d9d9d9;
   --switch-container-border-radius: 22px;
