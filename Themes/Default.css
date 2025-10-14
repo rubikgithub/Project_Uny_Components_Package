@@ -75,10 +75,10 @@
   --block-content-open-opacity: 1;
   --block-content-open-padding: 10px;
   --block-content-collapsed-padding-left-right: 10px;
-  --block-container-background-color: #e0edfb;
-  --block-container-border-radius: 8px;
-  --block-container-border-width: 1px;
-  --block-container-border-color: #EAEAEA;
+  --blockContainer-background-color: #e0edfb;
+  --blockContainer-border-radius: 8px;
+  --blockContainer-border-width: 1px;
+  --blockContainer-border-color: #EAEAEA;
   --block-heading-font-color: red;
   --block-heading-font-size: 25px;
   --block-subheading-font-color: blue;
