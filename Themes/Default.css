@@ -680,9 +680,9 @@
   --page-modal-footer-font-style: capitalize;
   --note-alert-default1-height: 65px;
   --note-alert-default1-width: 915px;
-  --note-alert-default1-title-font-size: 20px;
+  --note-alert-default1-title-font-size: 16px;
   --note-alert-default1-title-font-weight: normal;
-  --note-alert-default1-content-font-size: 16px;
+  --note-alert-default1-content-font-size: 14px;
   --note-alert-default1-content-font-weight: normal;
   --note-alert-default1-border-radius: 8px;
   --success-note-background-color: #b6f8c4;
