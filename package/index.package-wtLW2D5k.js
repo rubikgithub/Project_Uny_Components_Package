@@ -36577,7 +36577,7 @@ CardSettingsDrawer$1.propTypes = {
   setOpenCardSettingsDrawer: PropTypes.func.isRequired
 };
 const FiltersDrawer = React__default.lazy(
-  () => import("./FiltersDrawer-DMVI8lQT.js")
+  () => import("./FiltersDrawer-CGnssMRe.js")
 );
 function CardsComponent({
   configurationId: ri,
@@ -79681,7 +79681,7 @@ const _excluded$7 = ["leafField", "mainGroupingCriteria", "hideDescendantCount"]
   }, [ri]);
   useGridRegisterStrategyProcessor(ri, RowGroupingStrategy.DataSource, "rowTreeCreation", ti), useGridRegisterStrategyProcessor(ri, RowGroupingStrategy.DataSource, "filtering", ii), useGridRegisterStrategyProcessor(ri, RowGroupingStrategy.DataSource, "sorting", ni), useGridRegisterStrategyProcessor(ri, RowGroupingStrategy.DataSource, "visibleRowsLookupCreation", getVisibleRowsLookup);
 }, getExcelJs = async () => {
-  const ri = await import("./exceljs.min-BiATmagR.js").then((ei) => ei.e);
+  const ri = await import("./exceljs.min-C6P_vHlP.js").then((ei) => ei.e);
   return ri.default ?? ri;
 }, getFormattedValueOptions = (ri, ei, ti, ii) => {
   if (!ri.valueOptions)
@@ -102882,7 +102882,7 @@ function(ri) {
  */
 function(ri) {
   function ei() {
-    return (n$3.canvg ? Promise.resolve(n$3.canvg) : import("./index.es-CnMb5Qr7.js")).catch(function(ti) {
+    return (n$3.canvg ? Promise.resolve(n$3.canvg) : import("./index.es-BKnbfzlR.js")).catch(function(ti) {
       return Promise.reject(new Error("Could not load canvg: " + ti));
     }).then(function(ti) {
       return ti.default ? ti.default : ti;
@@ -115039,10 +115039,11 @@ const RECORD_LIMIT = 4e3, Table2O = ({
     (Al = Wi == null ? void 0 : Wi.onRowOrderChange) == null || Al.call(Wi, js, na, Ta);
   }, [Vs, os, ri, ei, ni, Wi]), ks = useMemo$1(() => {
     const js = GetPurifiedColumns(ii, ro, Ii, Fi);
-    if (!ji.length || !Array.isArray(js)) return js;
+    if (!Array.isArray(js)) return js;
     const na = new Set(ji);
     return js.map((Ta) => {
-      if (!Ta || !na.has(Ta.field)) return Ta;
+      if (!Ta || !na.has(Ta.field))
+        return Ta && { ...Ta, headerClassName: Ta.headerClassName ?? "", cellClassName: Ta.cellClassName ?? "" };
       const ja = Ta.headerClassName, Ka = Ta.cellClassName;
       return {
         ...Ta,
@@ -482370,7 +482371,7 @@ const L1 = class L1 extends BlockEmbed {
         try {
           const fi = await (await fetch(ii)).arrayBuffer();
           if (oi === "docx") {
-            const vi = await (await import("./index-DbrL-d1C.js").then((mi) => mi.i)).convertToHtml({ arrayBuffer: fi });
+            const vi = await (await import("./index-CtQG_IzI.js").then((mi) => mi.i)).convertToHtml({ arrayBuffer: fi });
             ui.innerHTML = vi.value || "<em>Empty document</em>";
           } else if (oi === "xlsx") {
             const gi = await import("./xlsx-BopDBbWb.js"), vi = gi.read(fi, { type: "array" }), mi = vi.SheetNames[0], yi = gi.utils.sheet_to_html(vi.Sheets[mi]);
