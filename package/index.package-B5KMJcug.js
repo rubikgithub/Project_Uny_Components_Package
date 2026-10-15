@@ -36577,7 +36577,7 @@ CardSettingsDrawer$1.propTypes = {
   setOpenCardSettingsDrawer: PropTypes.func.isRequired
 };
 const FiltersDrawer = React__default.lazy(
-  () => import("./FiltersDrawer-CGnssMRe.js")
+  () => import("./FiltersDrawer-2WtyDIZa.js")
 );
 function CardsComponent({
   configurationId: ri,
@@ -79681,7 +79681,7 @@ const _excluded$7 = ["leafField", "mainGroupingCriteria", "hideDescendantCount"]
   }, [ri]);
   useGridRegisterStrategyProcessor(ri, RowGroupingStrategy.DataSource, "rowTreeCreation", ti), useGridRegisterStrategyProcessor(ri, RowGroupingStrategy.DataSource, "filtering", ii), useGridRegisterStrategyProcessor(ri, RowGroupingStrategy.DataSource, "sorting", ni), useGridRegisterStrategyProcessor(ri, RowGroupingStrategy.DataSource, "visibleRowsLookupCreation", getVisibleRowsLookup);
 }, getExcelJs = async () => {
-  const ri = await import("./exceljs.min-C6P_vHlP.js").then((ei) => ei.e);
+  const ri = await import("./exceljs.min-Bd-w5vny.js").then((ei) => ei.e);
   return ri.default ?? ri;
 }, getFormattedValueOptions = (ri, ei, ti, ii) => {
   if (!ri.valueOptions)
@@ -102882,7 +102882,7 @@ function(ri) {
  */
 function(ri) {
   function ei() {
-    return (n$3.canvg ? Promise.resolve(n$3.canvg) : import("./index.es-BKnbfzlR.js")).catch(function(ti) {
+    return (n$3.canvg ? Promise.resolve(n$3.canvg) : import("./index.es-BB3IQ1z-.js")).catch(function(ti) {
       return Promise.reject(new Error("Could not load canvg: " + ti));
     }).then(function(ti) {
       return ti.default ? ti.default : ti;
@@ -110268,20 +110268,24 @@ const FilterField$3 = ({ tableId: ri, col: ei, value: ti, onChange: ii, onDirty:
     getCustomFilterFields(ii) {
       const ni = ri[ii] || {}, oi = ei[ii] || {}, si = (ci) => ci == null || ci === "" || Array.isArray(ci) && ci.length === 0, ai = (ci) => Array.isArray(ci) ? JSON.stringify([...ci].sort()) : String(ci), li = [];
       return Object.keys(ni).forEach((ci) => {
-        var hi, fi, gi;
+        var hi, fi, gi, vi, mi;
         if (((hi = ni[ci]) == null ? void 0 : hi.f) === "tile") return;
         const di = (fi = ni[ci]) == null ? void 0 : fi.value, ui = (gi = oi[ci]) == null ? void 0 : gi.value;
-        si(di) || (si(ui) || ai(di) !== ai(ui)) && li.push(ci);
+        if (si(di)) {
+          si((mi = (vi = ti[ii]) == null ? void 0 : vi[ci]) == null ? void 0 : mi.value) || li.push(ci);
+          return;
+        }
+        (si(ui) || ai(di) !== ai(ui)) && li.push(ci);
       }), li;
     },
     getCustomFilterCount(ii) {
       const ni = ri[ii] || {}, oi = ei[ii] || {}, si = (ci) => ci == null || ci === "" || Array.isArray(ci) && ci.length === 0, ai = (ci) => Array.isArray(ci) ? JSON.stringify([...ci].sort()) : String(ci);
       let li = 0;
       return Object.keys(ni).forEach((ci) => {
-        var hi, fi, gi;
+        var hi, fi, gi, vi, mi;
         if (((hi = ni[ci]) == null ? void 0 : hi.f) === "tile") return;
         const di = (fi = ni[ci]) == null ? void 0 : fi.value, ui = (gi = oi[ci]) == null ? void 0 : gi.value;
-        si(di) || (si(ui) || ai(di) !== ai(ui)) && li++;
+        si(di) ? si((mi = (vi = ti[ii]) == null ? void 0 : vi[ci]) == null ? void 0 : mi.value) || li++ : (si(ui) || ai(di) !== ai(ui)) && li++;
       }), li;
     },
     reset(ii) {
@@ -110455,14 +110459,14 @@ const FilterField$3 = ({ tableId: ri, col: ei, value: ti, onChange: ii, onDirty:
       gr[Ji] = ls ? { ...Jr, f: os.f } : { ...Jr, f: "user" };
     }), Ci(gr), Ai(gr) ? (Ei(!0), wi(!0)) : (FilterManager$1.init(ri, gr), ti(gr), Ei(!1), wi(!1));
   }, Fi = (Ki) => {
-    var Jr, os;
-    const $i = xi == null ? void 0 : xi[Ki.field], gr = ((Jr = Ki.filter) == null ? void 0 : Jr.defaultValue) || ((os = Ki.filter) == null ? void 0 : os.value) || null, Zi = {
+    var ls, lo, ms;
+    const $i = xi == null ? void 0 : xi[Ki.field], gr = (ls = Ri()) == null ? void 0 : ls[Ki.field], Zi = ((lo = Ki.filter) == null ? void 0 : lo.defaultValue) || ((ms = Ki.filter) == null ? void 0 : ms.value) || null, Ji = gr && !Oi(gr.value) ? { ...$i || {}, ...gr } : { ...$i || {}, value: Zi, f: "user" }, Jr = {
       ...xi,
-      [Ki.field]: { ...$i || {}, value: gr, f: "user" }
+      [Ki.field]: Ji
     };
-    Ci(Zi), FilterManager$1.init(ri, Zi), ti(Zi);
-    const Ji = Ai(Zi);
-    Ei(Ji), wi(Ji);
+    Ci(Jr), FilterManager$1.init(ri, Jr), ti(Jr);
+    const os = Ai(Jr);
+    Ei(os), wi(os);
   }, Wi = () => {
     FilterManager$1.init(ri, xi), ti(xi);
     const Ki = Ai(xi);
@@ -423660,10 +423664,8 @@ function requireScheduler_development() {
     }();
   }(scheduler_development)), scheduler_development;
 }
-var hasRequiredScheduler;
-function requireScheduler() {
-  return hasRequiredScheduler || (hasRequiredScheduler = 1, process.env.NODE_ENV === "production" ? scheduler.exports = requireScheduler_production_min() : scheduler.exports = requireScheduler_development()), scheduler.exports;
-}
+process.env.NODE_ENV === "production" ? scheduler.exports = requireScheduler_production_min() : scheduler.exports = requireScheduler_development();
+var schedulerExports = scheduler.exports;
 /**
  * @license React
  * react-reconciler.production.min.js
@@ -423676,7 +423678,7 @@ function requireScheduler() {
 var reactReconciler_production_min, hasRequiredReactReconciler_production_min;
 function requireReactReconciler_production_min() {
   return hasRequiredReactReconciler_production_min || (hasRequiredReactReconciler_production_min = 1, reactReconciler_production_min = function(ei) {
-    var ti = {}, ii = React__default, ni = requireScheduler(), oi = Object.assign;
+    var ti = {}, ii = React__default, ni = schedulerExports, oi = Object.assign;
     function si(Cr) {
       for (var Rr = "https://reactjs.org/docs/error-decoder.html?invariant=" + Cr, Is = 1; Is < arguments.length; Is++) Rr += "&args[]=" + encodeURIComponent(arguments[Is]);
       return "Minified React error #" + Cr + "; visit " + Rr + " for the full message or use the non-minified dev environment for full errors and additional helpful warnings.";
@@ -427434,7 +427436,7 @@ var reactReconciler_development = { exports: {} };
 var hasRequiredReactReconciler_development;
 function requireReactReconciler_development() {
   return hasRequiredReactReconciler_development || (hasRequiredReactReconciler_development = 1, process.env.NODE_ENV !== "production" && (reactReconciler_development.exports = function(ei) {
-    var ti = {}, ii = React__default, ni = requireScheduler(), oi = ii.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED, si = !1;
+    var ti = {}, ii = React__default, ni = schedulerExports, oi = ii.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED, si = !1;
     function ai(Yi) {
       si = Yi;
     }
@@ -436708,7 +436710,6 @@ function updatePicture(ri) {
     ei && ei.batchDraw();
   }
 }
-var schedulerExports = requireScheduler();
 const NO_CONTEXT = {}, UPDATE_SIGNAL = {};
 Konva.Node.prototype._applyProps = applyNodeProps;
 function appendInitialChild(ri, ei) {
@@ -482371,7 +482372,7 @@ const L1 = class L1 extends BlockEmbed {
         try {
           const fi = await (await fetch(ii)).arrayBuffer();
           if (oi === "docx") {
-            const vi = await (await import("./index-CtQG_IzI.js").then((mi) => mi.i)).convertToHtml({ arrayBuffer: fi });
+            const vi = await (await import("./index-D1D_HQQk.js").then((mi) => mi.i)).convertToHtml({ arrayBuffer: fi });
             ui.innerHTML = vi.value || "<em>Empty document</em>";
           } else if (oi === "xlsx") {
             const gi = await import("./xlsx-BopDBbWb.js"), vi = gi.read(fi, { type: "array" }), mi = vi.SheetNames[0], yi = gi.utils.sheet_to_html(vi.Sheets[mi]);
