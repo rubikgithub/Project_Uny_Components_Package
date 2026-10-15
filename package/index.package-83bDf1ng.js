@@ -36577,7 +36577,7 @@ CardSettingsDrawer$1.propTypes = {
   setOpenCardSettingsDrawer: PropTypes.func.isRequired
 };
 const FiltersDrawer = React__default.lazy(
-  () => import("./FiltersDrawer-C6l1I8I3.js")
+  () => import("./FiltersDrawer-oacnJpAR.js")
 );
 function CardsComponent({
   configurationId: ri,
@@ -79681,7 +79681,7 @@ const _excluded$7 = ["leafField", "mainGroupingCriteria", "hideDescendantCount"]
   }, [ri]);
   useGridRegisterStrategyProcessor(ri, RowGroupingStrategy.DataSource, "rowTreeCreation", ti), useGridRegisterStrategyProcessor(ri, RowGroupingStrategy.DataSource, "filtering", ii), useGridRegisterStrategyProcessor(ri, RowGroupingStrategy.DataSource, "sorting", ni), useGridRegisterStrategyProcessor(ri, RowGroupingStrategy.DataSource, "visibleRowsLookupCreation", getVisibleRowsLookup);
 }, getExcelJs = async () => {
-  const ri = await import("./exceljs.min-LqCCV5NF.js").then((ei) => ei.e);
+  const ri = await import("./exceljs.min-BrBg96vI.js").then((ei) => ei.e);
   return ri.default ?? ri;
 }, getFormattedValueOptions = (ri, ei, ti, ii) => {
   if (!ri.valueOptions)
@@ -102882,7 +102882,7 @@ function(ri) {
  */
 function(ri) {
   function ei() {
-    return (n$3.canvg ? Promise.resolve(n$3.canvg) : import("./index.es-BJMNAAmy.js")).catch(function(ti) {
+    return (n$3.canvg ? Promise.resolve(n$3.canvg) : import("./index.es-Bi-vMz5n.js")).catch(function(ti) {
       return Promise.reject(new Error("Could not load canvg: " + ti));
     }).then(function(ti) {
       return ti.default ? ti.default : ti;
@@ -110278,6 +110278,29 @@ const FilterField$3 = ({ tableId: ri, col: ei, value: ti, onChange: ii, onDirty:
         (si(ui) || ai(di) !== ai(ui)) && li.push(ci);
       }), li;
     },
+    // EXACT match test for the summary tile: true only when every field the
+    // active tile set still carries the tile's value (same value, same
+    // condition) AND no other field carries a user value beyond the column
+    // defaults. The tile strip lights the tile from this - a tile needing
+    // two filters stays inactive while only one of them matches. Flags
+    // (f: tile/user) are NOT consulted: it is purely value vs value.
+    matchesTileBaseline(ii) {
+      var di, ui;
+      const ni = ti[ii] || null;
+      if (!ni) return this.getCustomFilterCount(ii) === 0;
+      const oi = ri[ii] || {}, si = ei[ii] || {}, ai = (hi) => hi == null || hi === "" || Array.isArray(hi) && hi.length === 0, li = (hi) => Array.isArray(hi) ? JSON.stringify([...hi].map(String).sort()) : String(hi), ci = (hi, fi) => ai(hi) && ai(fi) || !ai(hi) && !ai(fi) && li(hi) === li(fi);
+      for (const hi of Object.keys(ni)) {
+        const fi = ni[hi] || {}, gi = oi[hi] || {};
+        if (!ci(gi.value, fi.value) || fi.c && gi.c && String(fi.c) !== String(gi.c)) return !1;
+      }
+      for (const hi of Object.keys(oi)) {
+        if (ni[hi]) continue;
+        const fi = (di = oi[hi]) == null ? void 0 : di.value, gi = (ui = si[hi]) == null ? void 0 : ui.value;
+        if (!ai(fi) && (ai(gi) || li(fi) !== li(gi)))
+          return !1;
+      }
+      return !0;
+    },
     getCustomFilterCount(ii) {
       const ni = ri[ii] || {}, oi = ei[ii] || {}, si = (ci) => ci == null || ci === "" || Array.isArray(ci) && ci.length === 0, ai = (ci) => Array.isArray(ci) ? JSON.stringify([...ci].sort()) : String(ci);
       let li = 0;
@@ -110459,14 +110482,14 @@ const FilterField$3 = ({ tableId: ri, col: ei, value: ti, onChange: ii, onDirty:
       gr[Ji] = ls ? { ...Jr, f: os.f } : { ...Jr, f: "user" };
     }), Ci(gr), Ai(gr) ? (Ei(!0), wi(!0)) : (FilterManager$1.init(ri, gr), ti(gr), Ei(!1), wi(!1));
   }, Fi = (Ki) => {
-    var ls, lo, ms;
-    const $i = xi == null ? void 0 : xi[Ki.field], gr = (ls = Ri()) == null ? void 0 : ls[Ki.field], Zi = ((lo = Ki.filter) == null ? void 0 : lo.defaultValue) || ((ms = Ki.filter) == null ? void 0 : ms.value) || null, Ji = gr && !Oi(gr.value) ? { ...$i || {}, ...gr } : { ...$i || {}, value: Zi, f: "user" }, Jr = {
+    var Jr, os;
+    const $i = xi == null ? void 0 : xi[Ki.field], gr = ((Jr = Ki.filter) == null ? void 0 : Jr.defaultValue) || ((os = Ki.filter) == null ? void 0 : os.value) || null, Zi = {
       ...xi,
-      [Ki.field]: Ji
+      [Ki.field]: { ...$i || {}, value: gr, f: "user" }
     };
-    Ci(Jr), FilterManager$1.init(ri, Jr), ti(Jr);
-    const os = Ai(Jr);
-    Ei(os), wi(os);
+    Ci(Zi), FilterManager$1.init(ri, Zi), ti(Zi);
+    const Ji = Ai(Zi);
+    Ei(Ji), wi(Ji);
   }, Wi = () => {
     FilterManager$1.init(ri, xi), ti(xi);
     const Ki = Ai(xi);
@@ -115088,7 +115111,7 @@ const RECORD_LIMIT = 4e3, Table2O = ({
     const na = FilterManager$1.getAll(Di);
     if (typeof gi == "function" && !(js != null && js.silent))
       try {
-        gi(na, { changedFromBaseline: FilterManager$1.getCustomFilterCount(Di) > 0 });
+        gi(na, { changedFromBaseline: !FilterManager$1.matchesTileBaseline(Di) });
       } catch {
       }
     qi(na, []);
@@ -482375,7 +482398,7 @@ const L1 = class L1 extends BlockEmbed {
         try {
           const fi = await (await fetch(ii)).arrayBuffer();
           if (oi === "docx") {
-            const vi = await (await import("./index-BgAQsi0I.js").then((mi) => mi.i)).convertToHtml({ arrayBuffer: fi });
+            const vi = await (await import("./index-CvzIkA1n.js").then((mi) => mi.i)).convertToHtml({ arrayBuffer: fi });
             ui.innerHTML = vi.value || "<em>Empty document</em>";
           } else if (oi === "xlsx") {
             const gi = await import("./xlsx-BopDBbWb.js"), vi = gi.read(fi, { type: "array" }), mi = vi.SheetNames[0], yi = gi.utils.sheet_to_html(vi.Sheets[mi]);
