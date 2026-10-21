@@ -20849,7 +20849,7 @@ const Input$6 = forwardRef(
         return;
       }
       if (oi === "email") {
-        const Gs = /[^a-zA-Z0-9@._]/g;
+        const Gs = /[^a-zA-Z0-9@._+'-]/g;
         ro = ro.replace(Gs, "");
       }
       if (oi === "mobile") {
@@ -36577,7 +36577,7 @@ CardSettingsDrawer$1.propTypes = {
   setOpenCardSettingsDrawer: PropTypes.func.isRequired
 };
 const FiltersDrawer = React__default.lazy(
-  () => import("./FiltersDrawer-Q9ucFfFu.js")
+  () => import("./FiltersDrawer-D2f68Rr3.js")
 );
 function CardsComponent({
   configurationId: ri,
@@ -79681,7 +79681,7 @@ const _excluded$7 = ["leafField", "mainGroupingCriteria", "hideDescendantCount"]
   }, [ri]);
   useGridRegisterStrategyProcessor(ri, RowGroupingStrategy.DataSource, "rowTreeCreation", ti), useGridRegisterStrategyProcessor(ri, RowGroupingStrategy.DataSource, "filtering", ii), useGridRegisterStrategyProcessor(ri, RowGroupingStrategy.DataSource, "sorting", ni), useGridRegisterStrategyProcessor(ri, RowGroupingStrategy.DataSource, "visibleRowsLookupCreation", getVisibleRowsLookup);
 }, getExcelJs = async () => {
-  const ri = await import("./exceljs.min-BVRfql0q.js").then((ei) => ei.e);
+  const ri = await import("./exceljs.min-CY5gyt0-.js").then((ei) => ei.e);
   return ri.default ?? ri;
 }, getFormattedValueOptions = (ri, ei, ti, ii) => {
   if (!ri.valueOptions)
@@ -102882,7 +102882,7 @@ function(ri) {
  */
 function(ri) {
   function ei() {
-    return (n$3.canvg ? Promise.resolve(n$3.canvg) : import("./index.es-BM9PDyjD.js")).catch(function(ti) {
+    return (n$3.canvg ? Promise.resolve(n$3.canvg) : import("./index.es-wWNUu3fH.js")).catch(function(ti) {
       return Promise.reject(new Error("Could not load canvg: " + ti));
     }).then(function(ti) {
       return ti.default ? ti.default : ti;
@@ -423694,10 +423694,8 @@ function requireScheduler_development() {
     }();
   }(scheduler_development)), scheduler_development;
 }
-var hasRequiredScheduler;
-function requireScheduler() {
-  return hasRequiredScheduler || (hasRequiredScheduler = 1, process.env.NODE_ENV === "production" ? scheduler.exports = requireScheduler_production_min() : scheduler.exports = requireScheduler_development()), scheduler.exports;
-}
+process.env.NODE_ENV === "production" ? scheduler.exports = requireScheduler_production_min() : scheduler.exports = requireScheduler_development();
+var schedulerExports = scheduler.exports;
 /**
  * @license React
  * react-reconciler.production.min.js
@@ -423710,7 +423708,7 @@ function requireScheduler() {
 var reactReconciler_production_min, hasRequiredReactReconciler_production_min;
 function requireReactReconciler_production_min() {
   return hasRequiredReactReconciler_production_min || (hasRequiredReactReconciler_production_min = 1, reactReconciler_production_min = function(ei) {
-    var ti = {}, ii = React__default, ni = requireScheduler(), oi = Object.assign;
+    var ti = {}, ii = React__default, ni = schedulerExports, oi = Object.assign;
     function si(Cr) {
       for (var Rr = "https://reactjs.org/docs/error-decoder.html?invariant=" + Cr, Is = 1; Is < arguments.length; Is++) Rr += "&args[]=" + encodeURIComponent(arguments[Is]);
       return "Minified React error #" + Cr + "; visit " + Rr + " for the full message or use the non-minified dev environment for full errors and additional helpful warnings.";
@@ -427468,7 +427466,7 @@ var reactReconciler_development = { exports: {} };
 var hasRequiredReactReconciler_development;
 function requireReactReconciler_development() {
   return hasRequiredReactReconciler_development || (hasRequiredReactReconciler_development = 1, process.env.NODE_ENV !== "production" && (reactReconciler_development.exports = function(ei) {
-    var ti = {}, ii = React__default, ni = requireScheduler(), oi = ii.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED, si = !1;
+    var ti = {}, ii = React__default, ni = schedulerExports, oi = ii.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED, si = !1;
     function ai(Yi) {
       si = Yi;
     }
@@ -436742,7 +436740,6 @@ function updatePicture(ri) {
     ei && ei.batchDraw();
   }
 }
-var schedulerExports = requireScheduler();
 const NO_CONTEXT = {}, UPDATE_SIGNAL = {};
 Konva.Node.prototype._applyProps = applyNodeProps;
 function appendInitialChild(ri, ei) {
@@ -482405,7 +482402,7 @@ const L1 = class L1 extends BlockEmbed {
         try {
           const fi = await (await fetch(ii)).arrayBuffer();
           if (oi === "docx") {
-            const vi = await (await import("./index-DPFB7cbH.js").then((mi) => mi.i)).convertToHtml({ arrayBuffer: fi });
+            const vi = await (await import("./index-BgBZw9sf.js").then((mi) => mi.i)).convertToHtml({ arrayBuffer: fi });
             ui.innerHTML = vi.value || "<em>Empty document</em>";
           } else if (oi === "xlsx") {
             const gi = await import("./xlsx-BopDBbWb.js"), vi = gi.read(fi, { type: "array" }), mi = vi.SheetNames[0], yi = gi.utils.sheet_to_html(vi.Sheets[mi]);
