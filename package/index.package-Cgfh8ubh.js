@@ -6814,7 +6814,8 @@ function downloadFile(ri, ei) {
 }
 const registerSyncfusionLicense = () => {
   registerLicense(
-    "Ngo9BigBOggjHTQxAR8/V1NMaF5cXmBCf1FpRmJGdld5fUVHYVZUTXxaS00DNHVRdkdmWX1fcHRcQ2BdVUJ2XEs="
+    // "Ngo9BigBOggjHTQxAR8/V1NMaF5cXmBCf1FpRmJGdld5fUVHYVZUTXxaS00DNHVRdkdmWX1fcHRcQ2BdVUJ2XEs="
+    "ORg4AjUWIQA/Gnt2XVhhQlJHfV5AQmBIYVp/TGpJfl96cVxMZVVBJAtUQF1hT39Sd0ViW31bcXVWQmNZWkZ+"
   );
 };
 var commonjsGlobal = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : typeof global < "u" ? global : typeof self < "u" ? self : {};
@@ -36577,7 +36578,7 @@ CardSettingsDrawer$1.propTypes = {
   setOpenCardSettingsDrawer: PropTypes.func.isRequired
 };
 const FiltersDrawer = React__default.lazy(
-  () => import("./FiltersDrawer-CoJQOFSo.js")
+  () => import("./FiltersDrawer-CGtuIIdW.js")
 );
 function CardsComponent({
   configurationId: ri,
@@ -79681,7 +79682,7 @@ const _excluded$7 = ["leafField", "mainGroupingCriteria", "hideDescendantCount"]
   }, [ri]);
   useGridRegisterStrategyProcessor(ri, RowGroupingStrategy.DataSource, "rowTreeCreation", ti), useGridRegisterStrategyProcessor(ri, RowGroupingStrategy.DataSource, "filtering", ii), useGridRegisterStrategyProcessor(ri, RowGroupingStrategy.DataSource, "sorting", ni), useGridRegisterStrategyProcessor(ri, RowGroupingStrategy.DataSource, "visibleRowsLookupCreation", getVisibleRowsLookup);
 }, getExcelJs = async () => {
-  const ri = await import("./exceljs.min-CJd5BeYs.js").then((ei) => ei.e);
+  const ri = await import("./exceljs.min-B3RFDqGa.js").then((ei) => ei.e);
   return ri.default ?? ri;
 }, getFormattedValueOptions = (ri, ei, ti, ii) => {
   if (!ri.valueOptions)
@@ -102882,7 +102883,7 @@ function(ri) {
  */
 function(ri) {
   function ei() {
-    return (n$3.canvg ? Promise.resolve(n$3.canvg) : import("./index.es-DuV6vt0F.js")).catch(function(ti) {
+    return (n$3.canvg ? Promise.resolve(n$3.canvg) : import("./index.es-BiUgv9os.js")).catch(function(ti) {
       return Promise.reject(new Error("Could not load canvg: " + ti));
     }).then(function(ti) {
       return ti.default ? ti.default : ti;
@@ -482440,7 +482441,7 @@ const L1 = class L1 extends BlockEmbed {
         try {
           const fi = await (await fetch(ii)).arrayBuffer();
           if (oi === "docx") {
-            const vi = await (await import("./index-CVXVxJAv.js").then((mi) => mi.i)).convertToHtml({ arrayBuffer: fi });
+            const vi = await (await import("./index-B2TBPFOp.js").then((mi) => mi.i)).convertToHtml({ arrayBuffer: fi });
             ui.innerHTML = vi.value || "<em>Empty document</em>";
           } else if (oi === "xlsx") {
             const gi = await import("./xlsx-BopDBbWb.js"), vi = gi.read(fi, { type: "array" }), mi = vi.SheetNames[0], yi = gi.utils.sheet_to_html(vi.Sheets[mi]);
